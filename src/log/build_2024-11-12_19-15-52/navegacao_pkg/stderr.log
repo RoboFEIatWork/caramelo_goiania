@@ -1,0 +1,5 @@
+  File "/home/atwork/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg/camera_node.py", line 39
+    if colors[0][0] > 140 and colors[1][0] < 135 and color[0][0]
+                                                                ^
+SyntaxError: expected ':'
+
