@@ -20,7 +20,7 @@ class RobotController(Node):
         self.color_thread = threading.Thread(target=self.color_detection_thread)
         self.color_thread.start()
 
-     
+    
     def timer_callback(self):
         # Aqui você pode definir a lógica de movimento, que será chamada a cada ciclo do timer
         colors = self.color_detection_thread()

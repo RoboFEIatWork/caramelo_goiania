@@ -1,5 +1,0 @@
-  File "/home/atwork/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg/camera_node.py", line 15
-    Usando BGR (Blue,Green,Red)
-           ^^^
-SyntaxError: invalid syntax
-

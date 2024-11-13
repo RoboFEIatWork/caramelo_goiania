@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing navegacao_pkg.egg-info/PKG-INFO
+writing dependency_links to navegacao_pkg.egg-info/dependency_links.txt
+writing entry points to navegacao_pkg.egg-info/entry_points.txt
+writing requirements to navegacao_pkg.egg-info/requires.txt
+writing top-level names to navegacao_pkg.egg-info/top_level.txt
+reading manifest file 'navegacao_pkg.egg-info/SOURCES.txt'
+writing manifest file 'navegacao_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/victor/caramelo_goiania/install/navegacao_pkg/lib/python3.10/site-packages/navegacao-pkg.egg-link (link to .)
+Installing camera_node script to /home/victor/caramelo_goiania/install/navegacao_pkg/lib/navegacao_pkg
+Installing segue_linha script to /home/victor/caramelo_goiania/install/navegacao_pkg/lib/navegacao_pkg
+Installing serial_node_arduino script to /home/victor/caramelo_goiania/install/navegacao_pkg/lib/navegacao_pkg
+Installing serial_node_isaac script to /home/victor/caramelo_goiania/install/navegacao_pkg/lib/navegacao_pkg
+
+Installed /home/victor/caramelo_goiania/build/navegacao_pkg
+running symlink_data

@@ -24,7 +24,7 @@ class Ros2Serial(Node):
         
         # Parâmetros da porta serial
         self.declare_parameter('baud_rate', 9600)
-        self.declare_parameter('serial_port', '/dev/ttyUSB0')
+        self.declare_parameter('serial_port', '/dev/ttyUSB1')
         self.baud_rate = self.get_parameter('baud_rate').value
         self.serial_port = self.get_parameter('serial_port').value
         self.ser = self.connect_to_serial(self.serial_port)

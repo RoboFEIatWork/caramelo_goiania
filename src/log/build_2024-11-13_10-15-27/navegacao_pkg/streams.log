@@ -1,0 +1,44 @@
+[1.362s] Invoking command in '/home/victor/caramelo_goiania/src/navegacao_pkg': PYTHONPATH=/home/victor/caramelo_goiania/src/build/navegacao_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/navegacao_pkg build --build-base /home/victor/caramelo_goiania/src/build/navegacao_pkg/build install --record /home/victor/caramelo_goiania/src/build/navegacao_pkg/install.log --single-version-externally-managed install_data
+[1.637s] running egg_info
+[1.638s] creating ../build/navegacao_pkg/navegacao_pkg.egg-info
+[1.638s] writing ../build/navegacao_pkg/navegacao_pkg.egg-info/PKG-INFO
+[1.639s] writing dependency_links to ../build/navegacao_pkg/navegacao_pkg.egg-info/dependency_links.txt
+[1.639s] writing entry points to ../build/navegacao_pkg/navegacao_pkg.egg-info/entry_points.txt
+[1.639s] writing requirements to ../build/navegacao_pkg/navegacao_pkg.egg-info/requires.txt
+[1.639s] writing top-level names to ../build/navegacao_pkg/navegacao_pkg.egg-info/top_level.txt
+[1.639s] writing manifest file '../build/navegacao_pkg/navegacao_pkg.egg-info/SOURCES.txt'
+[1.641s] reading manifest file '../build/navegacao_pkg/navegacao_pkg.egg-info/SOURCES.txt'
+[1.642s] writing manifest file '../build/navegacao_pkg/navegacao_pkg.egg-info/SOURCES.txt'
+[1.642s] running build
+[1.643s] running build_py
+[1.643s] creating /home/victor/caramelo_goiania/src/build/navegacao_pkg/build
+[1.643s] creating /home/victor/caramelo_goiania/src/build/navegacao_pkg/build/lib
+[1.643s] creating /home/victor/caramelo_goiania/src/build/navegacao_pkg/build/lib/navegacao_pkg
+[1.643s] copying navegacao_pkg/camera_node.py -> /home/victor/caramelo_goiania/src/build/navegacao_pkg/build/lib/navegacao_pkg
+[1.644s] copying navegacao_pkg/serial_node_arduino.py -> /home/victor/caramelo_goiania/src/build/navegacao_pkg/build/lib/navegacao_pkg
+[1.644s] copying navegacao_pkg/__init__.py -> /home/victor/caramelo_goiania/src/build/navegacao_pkg/build/lib/navegacao_pkg
+[1.644s] copying navegacao_pkg/segue_pid.py -> /home/victor/caramelo_goiania/src/build/navegacao_pkg/build/lib/navegacao_pkg
+[1.644s] copying navegacao_pkg/segue_linha.py -> /home/victor/caramelo_goiania/src/build/navegacao_pkg/build/lib/navegacao_pkg
+[1.644s] running install
+[1.644s] running install_lib
+[1.645s] creating /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg
+[1.645s] copying /home/victor/caramelo_goiania/src/build/navegacao_pkg/build/lib/navegacao_pkg/camera_node.py -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg
+[1.645s] copying /home/victor/caramelo_goiania/src/build/navegacao_pkg/build/lib/navegacao_pkg/serial_node_arduino.py -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg
+[1.646s] copying /home/victor/caramelo_goiania/src/build/navegacao_pkg/build/lib/navegacao_pkg/__init__.py -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg
+[1.646s] copying /home/victor/caramelo_goiania/src/build/navegacao_pkg/build/lib/navegacao_pkg/segue_pid.py -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg
+[1.646s] copying /home/victor/caramelo_goiania/src/build/navegacao_pkg/build/lib/navegacao_pkg/segue_linha.py -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg
+[1.646s] byte-compiling /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg/camera_node.py to camera_node.cpython-310.pyc
+[1.647s] byte-compiling /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg/serial_node_arduino.py to serial_node_arduino.cpython-310.pyc
+[1.649s] byte-compiling /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg/__init__.py to __init__.cpython-310.pyc
+[1.649s] byte-compiling /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg/segue_pid.py to segue_pid.cpython-310.pyc
+[1.650s] byte-compiling /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg/segue_linha.py to segue_linha.cpython-310.pyc
+[1.650s] running install_data
+[1.651s] creating /home/victor/caramelo_goiania/src/install/navegacao_pkg/share/ament_index
+[1.651s] creating /home/victor/caramelo_goiania/src/install/navegacao_pkg/share/ament_index/resource_index
+[1.651s] creating /home/victor/caramelo_goiania/src/install/navegacao_pkg/share/ament_index/resource_index/packages
+[1.651s] copying resource/navegacao_pkg -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/share/ament_index/resource_index/packages
+[1.651s] copying package.xml -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/share/navegacao_pkg
+[1.652s] creating /home/victor/caramelo_goiania/src/install/navegacao_pkg/share/navegacao_pkg/launch
+[1.652s] copying launch/cartographer.launch.py -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/share/navegacao_pkg/launch
+[1.652s] error: can't copy 'launch/rplidar.launch.py': doesn't exist or not a regular file
+[1.672s] Invoked command in '/home/victor/caramelo_goiania/src/navegacao_pkg' returned '1': PYTHONPATH=/home/victor/caramelo_goiania/src/build/navegacao_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/navegacao_pkg build --build-base /home/victor/caramelo_goiania/src/build/navegacao_pkg/build install --record /home/victor/caramelo_goiania/src/build/navegacao_pkg/install.log --single-version-externally-managed install_data

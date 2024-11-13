@@ -84,7 +84,7 @@ class CameraNode(Node):
 
         #Determina o range do blue
         lower_blue = np.array([90,100,50]) #limite inferior
-        upper_blue = np.array([140,255,255]) #limite superior
+        upper_blue = np.array([110,255,255]) #limite superior
 
         mask = cv2.inRange(hsv,lower_blue,upper_blue)
 

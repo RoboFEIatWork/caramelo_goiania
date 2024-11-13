@@ -1,0 +1,30 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating navegacao_pkg.egg-info
+writing navegacao_pkg.egg-info/PKG-INFO
+writing dependency_links to navegacao_pkg.egg-info/dependency_links.txt
+writing entry points to navegacao_pkg.egg-info/entry_points.txt
+writing requirements to navegacao_pkg.egg-info/requires.txt
+writing top-level names to navegacao_pkg.egg-info/top_level.txt
+writing manifest file 'navegacao_pkg.egg-info/SOURCES.txt'
+reading manifest file 'navegacao_pkg.egg-info/SOURCES.txt'
+writing manifest file 'navegacao_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/victor/caramelo_goiania/install/navegacao_pkg/lib/python3.10/site-packages/navegacao-pkg.egg-link (link to .)
+Installing camera_node script to /home/victor/caramelo_goiania/install/navegacao_pkg/lib/navegacao_pkg
+Installing segue_linha script to /home/victor/caramelo_goiania/install/navegacao_pkg/lib/navegacao_pkg
+Installing serial_node_arduino script to /home/victor/caramelo_goiania/install/navegacao_pkg/lib/navegacao_pkg
+Installing serial_node_isaac script to /home/victor/caramelo_goiania/install/navegacao_pkg/lib/navegacao_pkg
+
+Installed /home/victor/caramelo_goiania/build/navegacao_pkg
+running symlink_data
+creating /home/victor/caramelo_goiania/install/navegacao_pkg/share/ament_index
+creating /home/victor/caramelo_goiania/install/navegacao_pkg/share/ament_index/resource_index
+creating /home/victor/caramelo_goiania/install/navegacao_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/victor/caramelo_goiania/build/navegacao_pkg/resource/navegacao_pkg -> /home/victor/caramelo_goiania/install/navegacao_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/victor/caramelo_goiania/build/navegacao_pkg/package.xml -> /home/victor/caramelo_goiania/install/navegacao_pkg/share/navegacao_pkg
+creating /home/victor/caramelo_goiania/install/navegacao_pkg/share/navegacao_pkg/launch
+symbolically linking /home/victor/caramelo_goiania/build/navegacao_pkg/launch/cartographer.launch.py -> /home/victor/caramelo_goiania/install/navegacao_pkg/share/navegacao_pkg/launch
+error: can't copy '/home/victor/caramelo_goiania/build/navegacao_pkg/launch/rplidar.launch.py': doesn't exist or not a regular file

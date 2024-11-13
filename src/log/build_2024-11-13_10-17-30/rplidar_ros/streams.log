@@ -1,0 +1,61 @@
+[0.535s] Invoking command in '/home/victor/caramelo_goiania/src/build/rplidar_ros': CMAKE_PREFIX_PATH=/home/victor/caramelo_goiania/install/navegacao_pkg:/opt/ros/humble /usr/bin/cmake --build /home/victor/caramelo_goiania/src/build/rplidar_ros -- -j8 -l8
+[0.647s] [35m[1mConsolidate compiler generated dependencies of target rplidar_client[0m
+[0.663s] [35m[1mConsolidate compiler generated dependencies of target rplidar_composition[0m
+[0.675s] [35m[1mConsolidate compiler generated dependencies of target rplidar_node[0m
+[0.725s] [  5%] Built target rplidar_client
+[0.800s] [ 52%] Built target rplidar_composition
+[0.843s] [100%] Built target rplidar_node
+[0.857s] Invoked command in '/home/victor/caramelo_goiania/src/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/home/victor/caramelo_goiania/install/navegacao_pkg:/opt/ros/humble /usr/bin/cmake --build /home/victor/caramelo_goiania/src/build/rplidar_ros -- -j8 -l8
+[0.956s] Invoking command in '/home/victor/caramelo_goiania/src/build/rplidar_ros': CMAKE_PREFIX_PATH=/home/victor/caramelo_goiania/install/navegacao_pkg:/opt/ros/humble /usr/bin/cmake --install /home/victor/caramelo_goiania/src/build/rplidar_ros
+[0.966s] -- Install configuration: ""
+[0.967s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/rplidar_ros/launch
+[0.967s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py
+[0.967s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py
+[0.967s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py
+[0.968s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py
+[0.968s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py
+[0.968s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py
+[0.968s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py
+[0.969s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py
+[0.969s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py
+[0.969s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py
+[0.969s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py
+[0.969s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py
+[0.970s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py
+[0.970s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py
+[0.970s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py
+[0.970s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py
+[0.971s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py
+[0.971s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py
+[0.971s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py
+[0.971s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py
+[0.971s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py
+[0.972s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py
+[0.972s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py
+[0.972s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py
+[0.972s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/rplidar_ros/rviz
+[0.972s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz
+[0.972s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/lib/rplidar_ros/rplidar_node
+[0.975s] -- Set runtime path of "/home/victor/caramelo_goiania/src/install/rplidar_ros/lib/rplidar_ros/rplidar_node" to ""
+[0.975s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[0.977s] -- Set runtime path of "/home/victor/caramelo_goiania/src/install/rplidar_ros/lib/rplidar_ros/rplidar_composition" to ""
+[0.977s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/lib/rplidar_ros/rplidar_client
+[0.980s] -- Set runtime path of "/home/victor/caramelo_goiania/src/install/rplidar_ros/lib/rplidar_ros/rplidar_client" to ""
+[0.981s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[0.981s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[0.981s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[0.981s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[0.982s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[0.982s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[0.982s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[0.982s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[0.983s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[0.983s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[0.983s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/rplidar_ros/package.dsv
+[0.983s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[0.984s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.984s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.984s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[0.984s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[0.985s] -- Installing: /home/victor/caramelo_goiania/src/install/rplidar_ros/share/rplidar_ros/package.xml
+[0.987s] Invoked command in '/home/victor/caramelo_goiania/src/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/home/victor/caramelo_goiania/install/navegacao_pkg:/opt/ros/humble /usr/bin/cmake --install /home/victor/caramelo_goiania/src/build/rplidar_ros
