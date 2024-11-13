@@ -1,0 +1,80 @@
+[0.035s] Invoking command in '/home/victor/caramelo_goiania/src/build/grid_map_octomap': AMENT_PREFIX_PATH=/home/victor/caramelo_goiania/src/install/grid_map_core:/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/victor/caramelo_goiania/src/install/grid_map_core:/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers:/home/victor/caramelo_goiania/install/sllidar_ros2:/home/victor/caramelo_goiania/install/rplidar_ros:/home/victor/caramelo_goiania/install/rf2o_laser_odometry:/home/victor/caramelo_goiania/src/install/sllidar_ros2:/home/victor/caramelo_goiania/src/install/rplidar_ros:/home/victor/caramelo_goiania/src/install/navegacao_pkg:/home/victor/caramelo_goiania/install/navegacao_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/victor/caramelo_goiania/src/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/victor/caramelo_goiania/src/grid_map/grid_map_octomap -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/victor/caramelo_goiania/src/install/grid_map_octomap
+[0.170s] -- The C compiler identification is GNU 11.4.0
+[0.271s] -- The CXX compiler identification is GNU 11.4.0
+[0.286s] -- Detecting C compiler ABI info
+[0.408s] -- Detecting C compiler ABI info - done
+[0.428s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.428s] -- Detecting C compile features
+[0.429s] -- Detecting C compile features - done
+[0.437s] -- Detecting CXX compiler ABI info
+[0.592s] -- Detecting CXX compiler ABI info - done
+[0.609s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.610s] -- Detecting CXX compile features
+[0.611s] -- Detecting CXX compile features - done
+[0.618s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.884s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.015s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.087s] -- Found grid_map_cmake_helpers: 2.0.0 (/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/cmake)
+[1.087s] -- Found grid_map_core: 2.0.0 (/home/victor/caramelo_goiania/src/install/grid_map_core/share/grid_map_core/cmake)
+[1.118s] -- Found Octomap (version ): /usr/include
+[1.122s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.331s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.339s] -- Looking for pthread.h
+[1.519s] -- Looking for pthread.h - found
+[1.519s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.639s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.639s] -- Found Threads: TRUE  
+[1.652s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.653s] -- Configured cppcheck include dirs: /home/victor/caramelo_goiania/src/grid_map/grid_map_octomap/include
+[1.654s] -- Configured cppcheck exclude dirs and/or files: 
+[1.656s] -- Added test 'lint_cmake' to check CMake code style
+[1.660s] -- Added test 'uncrustify' to check C / C++ code style
+[1.661s] -- Configured uncrustify additional arguments: 
+[1.662s] -- Added test 'xmllint' to check XML markup files
+[1.671s] -- Configuring done
+[1.690s] -- Generating done
+[1.692s] -- Build files have been written to: /home/victor/caramelo_goiania/src/build/grid_map_octomap
+[1.703s] Invoked command in '/home/victor/caramelo_goiania/src/build/grid_map_octomap' returned '0': AMENT_PREFIX_PATH=/home/victor/caramelo_goiania/src/install/grid_map_core:/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/victor/caramelo_goiania/src/install/grid_map_core:/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers:/home/victor/caramelo_goiania/install/sllidar_ros2:/home/victor/caramelo_goiania/install/rplidar_ros:/home/victor/caramelo_goiania/install/rf2o_laser_odometry:/home/victor/caramelo_goiania/src/install/sllidar_ros2:/home/victor/caramelo_goiania/src/install/rplidar_ros:/home/victor/caramelo_goiania/src/install/navegacao_pkg:/home/victor/caramelo_goiania/install/navegacao_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/victor/caramelo_goiania/src/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/victor/caramelo_goiania/src/grid_map/grid_map_octomap -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/victor/caramelo_goiania/src/install/grid_map_octomap
+[1.711s] Invoking command in '/home/victor/caramelo_goiania/src/build/grid_map_octomap': AMENT_PREFIX_PATH=/home/victor/caramelo_goiania/src/install/grid_map_core:/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/victor/caramelo_goiania/src/install/grid_map_core:/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers:/home/victor/caramelo_goiania/install/sllidar_ros2:/home/victor/caramelo_goiania/install/rplidar_ros:/home/victor/caramelo_goiania/install/rf2o_laser_odometry:/home/victor/caramelo_goiania/src/install/sllidar_ros2:/home/victor/caramelo_goiania/src/install/rplidar_ros:/home/victor/caramelo_goiania/src/install/navegacao_pkg:/home/victor/caramelo_goiania/install/navegacao_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/victor/caramelo_goiania/src/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/victor/caramelo_goiania/src/build/grid_map_octomap -- -j8 -l8
+[1.850s] [ 11%] [32mBuilding CXX object CMakeFiles/grid_map_octomap.dir/src/GridMapOctomapConverter.cpp.o[0m
+[1.858s] [ 22%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.861s] [ 33%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[4.682s] [ 44%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[4.864s] [ 44%] Built target gtest_main
+[9.027s] [ 55%] [32m[1mLinking CXX static library libgrid_map_octomap.a[0m
+[9.188s] [ 55%] Built target grid_map_octomap
+[12.291s] [ 66%] [32m[1mLinking CXX static library libgtest.a[0m
+[12.432s] [ 66%] Built target gtest
+[12.523s] [ 77%] [32mBuilding CXX object CMakeFiles/grid_map_octomap-test.dir/test/test_grid_map_octomap.cpp.o[0m
+[14.687s] [ 88%] [32mBuilding CXX object CMakeFiles/grid_map_octomap-test.dir/test/OctomapConverterTest.cpp.o[0m
+[19.106s] [100%] [32m[1mLinking CXX executable grid_map_octomap-test[0m
+[19.486s] [100%] Built target grid_map_octomap-test
+[19.505s] Invoked command in '/home/victor/caramelo_goiania/src/build/grid_map_octomap' returned '0': AMENT_PREFIX_PATH=/home/victor/caramelo_goiania/src/install/grid_map_core:/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/victor/caramelo_goiania/src/install/grid_map_core:/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers:/home/victor/caramelo_goiania/install/sllidar_ros2:/home/victor/caramelo_goiania/install/rplidar_ros:/home/victor/caramelo_goiania/install/rf2o_laser_odometry:/home/victor/caramelo_goiania/src/install/sllidar_ros2:/home/victor/caramelo_goiania/src/install/rplidar_ros:/home/victor/caramelo_goiania/src/install/navegacao_pkg:/home/victor/caramelo_goiania/install/navegacao_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/victor/caramelo_goiania/src/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/victor/caramelo_goiania/src/build/grid_map_octomap -- -j8 -l8
+[19.559s] Invoking command in '/home/victor/caramelo_goiania/src/build/grid_map_octomap': AMENT_PREFIX_PATH=/home/victor/caramelo_goiania/src/install/grid_map_core:/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/victor/caramelo_goiania/src/install/grid_map_core:/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers:/home/victor/caramelo_goiania/install/sllidar_ros2:/home/victor/caramelo_goiania/install/rplidar_ros:/home/victor/caramelo_goiania/install/rf2o_laser_odometry:/home/victor/caramelo_goiania/src/install/sllidar_ros2:/home/victor/caramelo_goiania/src/install/rplidar_ros:/home/victor/caramelo_goiania/src/install/navegacao_pkg:/home/victor/caramelo_goiania/install/navegacao_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/victor/caramelo_goiania/src/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/victor/caramelo_goiania/src/build/grid_map_octomap
+[19.573s] -- Install configuration: ""
+[19.573s] -- Execute custom install script
+[19.574s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_octomap/lib/libgrid_map_octomap.a
+[19.590s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_octomap/share/grid_map_octomap/environment/library_path.sh
+[19.606s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_octomap/share/grid_map_octomap/environment/library_path.dsv
+[19.622s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_octomap/share/ament_index/resource_index/package_run_dependencies/grid_map_octomap
+[19.637s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_octomap/share/ament_index/resource_index/parent_prefix_path/grid_map_octomap
+[19.653s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_octomap/share/grid_map_octomap/environment/ament_prefix_path.sh
+[19.667s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_octomap/share/grid_map_octomap/environment/ament_prefix_path.dsv
+[19.681s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_octomap/share/grid_map_octomap/environment/path.sh
+[19.697s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_octomap/share/grid_map_octomap/environment/path.dsv
+[19.712s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_octomap/share/grid_map_octomap/local_setup.bash
+[19.728s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_octomap/share/grid_map_octomap/local_setup.sh
+[19.745s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_octomap/share/grid_map_octomap/local_setup.zsh
+[19.759s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_octomap/share/grid_map_octomap/local_setup.dsv
+[19.775s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_octomap/share/grid_map_octomap/package.dsv
+[19.790s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_octomap/share/ament_index/resource_index/packages/grid_map_octomap
+[19.807s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_octomap/share/grid_map_octomap/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.822s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_octomap/share/grid_map_octomap/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.836s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_octomap/share/grid_map_octomap/cmake/ament_cmake_export_libraries-extras.cmake
+[19.850s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_octomap/share/grid_map_octomap/cmake/grid_map_octomapConfig.cmake
+[19.864s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_octomap/share/grid_map_octomap/cmake/grid_map_octomapConfig-version.cmake
+[19.878s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_octomap/share/grid_map_octomap/package.xml
+[19.891s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_octomap/include/grid_map_octomap
+[19.891s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_octomap/include/grid_map_octomap/grid_map_octomap.hpp
+[19.891s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_octomap/include/grid_map_octomap/GridMapOctomapConverter.hpp
+[19.896s] Invoked command in '/home/victor/caramelo_goiania/src/build/grid_map_octomap' returned '0': AMENT_PREFIX_PATH=/home/victor/caramelo_goiania/src/install/grid_map_core:/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/victor/caramelo_goiania/src/install/grid_map_core:/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers:/home/victor/caramelo_goiania/install/sllidar_ros2:/home/victor/caramelo_goiania/install/rplidar_ros:/home/victor/caramelo_goiania/install/rf2o_laser_odometry:/home/victor/caramelo_goiania/src/install/sllidar_ros2:/home/victor/caramelo_goiania/src/install/rplidar_ros:/home/victor/caramelo_goiania/src/install/navegacao_pkg:/home/victor/caramelo_goiania/install/navegacao_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/victor/caramelo_goiania/src/install/grid_map_core/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/victor/caramelo_goiania/src/build/grid_map_octomap

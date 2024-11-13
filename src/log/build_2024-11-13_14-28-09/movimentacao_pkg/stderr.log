@@ -1,0 +1,5 @@
+  File "/home/victor/caramelo_goiania/src/install/movimentacao_pkg/lib/python3.10/site-packages/movimentacao_pkg/cinematica.py", line 13
+    self.create_subscription(LaserScan, '/scan', self.listener_callback_laser, qos_profile
+                            ^
+SyntaxError: '(' was never closed
+

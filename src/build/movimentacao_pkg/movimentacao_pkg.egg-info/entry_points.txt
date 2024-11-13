@@ -1,0 +1,4 @@
+[console_scripts]
+cinematica = movimentacao_pkg.cinematica:main
+serial_node_arduino = movimentacao_pkg.serial_node_arduino:main
+

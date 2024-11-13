@@ -1,0 +1,1 @@
+/home/victor/caramelo_goiania/src/build/grid_map_msgs/rosidl_typesupport_fastrtps_c/grid_map_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h

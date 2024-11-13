@@ -1,0 +1,27 @@
+running egg_info
+writing ../build/movimentacao_pkg/movimentacao_pkg.egg-info/PKG-INFO
+writing dependency_links to ../build/movimentacao_pkg/movimentacao_pkg.egg-info/dependency_links.txt
+writing entry points to ../build/movimentacao_pkg/movimentacao_pkg.egg-info/entry_points.txt
+writing requirements to ../build/movimentacao_pkg/movimentacao_pkg.egg-info/requires.txt
+writing top-level names to ../build/movimentacao_pkg/movimentacao_pkg.egg-info/top_level.txt
+reading manifest file '../build/movimentacao_pkg/movimentacao_pkg.egg-info/SOURCES.txt'
+writing manifest file '../build/movimentacao_pkg/movimentacao_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying movimentacao_pkg/cinematica.py -> /home/victor/caramelo_goiania/src/build/movimentacao_pkg/build/lib/movimentacao_pkg
+running install
+running install_lib
+copying /home/victor/caramelo_goiania/src/build/movimentacao_pkg/build/lib/movimentacao_pkg/cinematica.py -> /home/victor/caramelo_goiania/src/install/movimentacao_pkg/lib/python3.10/site-packages/movimentacao_pkg
+byte-compiling /home/victor/caramelo_goiania/src/install/movimentacao_pkg/lib/python3.10/site-packages/movimentacao_pkg/cinematica.py to cinematica.cpython-310.pyc
+  File "/home/victor/caramelo_goiania/src/install/movimentacao_pkg/lib/python3.10/site-packages/movimentacao_pkg/cinematica.py", line 13
+    self.create_subscription(LaserScan, '/scan', self.listener_callback_laser, qos_profile
+                            ^
+SyntaxError: '(' was never closed
+
+running install_data
+running install_egg_info
+removing '/home/victor/caramelo_goiania/src/install/movimentacao_pkg/lib/python3.10/site-packages/movimentacao_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/movimentacao_pkg/movimentacao_pkg.egg-info to /home/victor/caramelo_goiania/src/install/movimentacao_pkg/lib/python3.10/site-packages/movimentacao_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing cinematica script to /home/victor/caramelo_goiania/src/install/movimentacao_pkg/lib/movimentacao_pkg
+writing list of installed files to '/home/victor/caramelo_goiania/src/build/movimentacao_pkg/install.log'

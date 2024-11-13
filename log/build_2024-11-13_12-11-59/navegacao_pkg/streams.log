@@ -1,0 +1,27 @@
+[0.877s] Invoking command in '/home/victor/caramelo_goiania/src/navegacao_pkg': PYTHONPATH=/home/victor/caramelo_goiania/build/navegacao_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victor/caramelo_goiania/install/navegacao_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/navegacao_pkg build --build-base /home/victor/caramelo_goiania/build/navegacao_pkg/build install --record /home/victor/caramelo_goiania/build/navegacao_pkg/install.log --single-version-externally-managed install_data
+[1.105s] running egg_info
+[1.106s] writing ../../build/navegacao_pkg/navegacao_pkg.egg-info/PKG-INFO
+[1.106s] writing dependency_links to ../../build/navegacao_pkg/navegacao_pkg.egg-info/dependency_links.txt
+[1.106s] writing entry points to ../../build/navegacao_pkg/navegacao_pkg.egg-info/entry_points.txt
+[1.106s] writing requirements to ../../build/navegacao_pkg/navegacao_pkg.egg-info/requires.txt
+[1.107s] writing top-level names to ../../build/navegacao_pkg/navegacao_pkg.egg-info/top_level.txt
+[1.109s] reading manifest file '../../build/navegacao_pkg/navegacao_pkg.egg-info/SOURCES.txt'
+[1.110s] writing manifest file '../../build/navegacao_pkg/navegacao_pkg.egg-info/SOURCES.txt'
+[1.110s] running build
+[1.110s] running build_py
+[1.110s] copying navegacao_pkg/gripmap.py -> /home/victor/caramelo_goiania/build/navegacao_pkg/build/lib/navegacao_pkg
+[1.111s] running install
+[1.111s] running install_lib
+[1.112s] copying /home/victor/caramelo_goiania/build/navegacao_pkg/build/lib/navegacao_pkg/gripmap.py -> /home/victor/caramelo_goiania/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg
+[1.113s] byte-compiling /home/victor/caramelo_goiania/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg/gripmap.py to gripmap.cpython-310.pyc
+[1.114s] running install_data
+[1.114s] running install_egg_info
+[1.116s] removing '/home/victor/caramelo_goiania/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.116s] Copying ../../build/navegacao_pkg/navegacao_pkg.egg-info to /home/victor/caramelo_goiania/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg-0.0.0-py3.10.egg-info
+[1.117s] running install_scripts
+[1.136s] Installing camera_node script to /home/victor/caramelo_goiania/install/navegacao_pkg/lib/navegacao_pkg
+[1.136s] Installing gridmap script to /home/victor/caramelo_goiania/install/navegacao_pkg/lib/navegacao_pkg
+[1.136s] Installing segue_linha script to /home/victor/caramelo_goiania/install/navegacao_pkg/lib/navegacao_pkg
+[1.136s] Installing serial_node_arduino script to /home/victor/caramelo_goiania/install/navegacao_pkg/lib/navegacao_pkg
+[1.137s] writing list of installed files to '/home/victor/caramelo_goiania/build/navegacao_pkg/install.log'
+[1.157s] Invoked command in '/home/victor/caramelo_goiania/src/navegacao_pkg' returned '0': PYTHONPATH=/home/victor/caramelo_goiania/build/navegacao_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victor/caramelo_goiania/install/navegacao_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/navegacao_pkg build --build-base /home/victor/caramelo_goiania/build/navegacao_pkg/build install --record /home/victor/caramelo_goiania/build/navegacao_pkg/install.log --single-version-externally-managed install_data

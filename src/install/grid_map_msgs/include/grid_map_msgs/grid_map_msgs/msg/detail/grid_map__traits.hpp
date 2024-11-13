@@ -1,0 +1,1 @@
+/home/victor/caramelo_goiania/src/build/grid_map_msgs/rosidl_generator_cpp/grid_map_msgs/msg/detail/grid_map__traits.hpp

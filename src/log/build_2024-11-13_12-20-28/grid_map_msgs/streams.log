@@ -1,0 +1,338 @@
+[0.020s] Invoking command in '/home/victor/caramelo_goiania/src/build/grid_map_msgs': AMENT_PREFIX_PATH=/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers:/home/victor/caramelo_goiania/install/sllidar_ros2:/home/victor/caramelo_goiania/install/rplidar_ros:/home/victor/caramelo_goiania/install/rf2o_laser_odometry:/home/victor/caramelo_goiania/src/install/sllidar_ros2:/home/victor/caramelo_goiania/src/install/rplidar_ros:/home/victor/caramelo_goiania/src/install/navegacao_pkg:/home/victor/caramelo_goiania/install/navegacao_pkg:/opt/ros/humble /usr/bin/cmake /home/victor/caramelo_goiania/src/grid_map/grid_map_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/victor/caramelo_goiania/src/install/grid_map_msgs
+[0.100s] -- The C compiler identification is GNU 11.4.0
+[0.195s] -- The CXX compiler identification is GNU 11.4.0
+[0.212s] -- Detecting C compiler ABI info
+[0.313s] -- Detecting C compiler ABI info - done
+[0.327s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.327s] -- Detecting C compile features
+[0.327s] -- Detecting C compile features - done
+[0.338s] -- Detecting CXX compiler ABI info
+[0.611s] -- Detecting CXX compiler ABI info - done
+[0.635s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.635s] -- Detecting CXX compile features
+[0.635s] -- Detecting CXX compile features - done
+[0.639s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.170s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.309s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.395s] -- Found grid_map_cmake_helpers: 2.0.0 (/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/cmake)
+[1.401s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[1.474s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.481s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.499s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.539s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.568s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.623s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.653s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.695s] -- Setting build type to Release as none was specified.
+[3.300s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.170s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.838s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.928s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[5.933s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[6.020s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[6.021s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.021s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[6.023s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[6.108s] -- Found PythonExtra: .so  
+[6.433s] -- Configuring done
+[6.630s] -- Generating done
+[6.638s] -- Build files have been written to: /home/victor/caramelo_goiania/src/build/grid_map_msgs
+[6.687s] Invoked command in '/home/victor/caramelo_goiania/src/build/grid_map_msgs' returned '0': AMENT_PREFIX_PATH=/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers:/home/victor/caramelo_goiania/install/sllidar_ros2:/home/victor/caramelo_goiania/install/rplidar_ros:/home/victor/caramelo_goiania/install/rf2o_laser_odometry:/home/victor/caramelo_goiania/src/install/sllidar_ros2:/home/victor/caramelo_goiania/src/install/rplidar_ros:/home/victor/caramelo_goiania/src/install/navegacao_pkg:/home/victor/caramelo_goiania/install/navegacao_pkg:/opt/ros/humble /usr/bin/cmake /home/victor/caramelo_goiania/src/grid_map/grid_map_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/victor/caramelo_goiania/src/install/grid_map_msgs
+[6.688s] Invoking command in '/home/victor/caramelo_goiania/src/build/grid_map_msgs': AMENT_PREFIX_PATH=/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers:/home/victor/caramelo_goiania/install/sllidar_ros2:/home/victor/caramelo_goiania/install/rplidar_ros:/home/victor/caramelo_goiania/install/rf2o_laser_odometry:/home/victor/caramelo_goiania/src/install/sllidar_ros2:/home/victor/caramelo_goiania/src/install/rplidar_ros:/home/victor/caramelo_goiania/src/install/navegacao_pkg:/home/victor/caramelo_goiania/install/navegacao_pkg:/opt/ros/humble /usr/bin/cmake --build /home/victor/caramelo_goiania/src/build/grid_map_msgs -- -j8 -l8
+[6.814s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.870s] [  1%] Built target ament_cmake_python_symlink_grid_map_msgs
+[6.888s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.464s] running egg_info
+[7.469s] creating grid_map_msgs.egg-info
+[7.470s] writing grid_map_msgs.egg-info/PKG-INFO
+[7.471s] writing dependency_links to grid_map_msgs.egg-info/dependency_links.txt
+[7.472s] writing top-level names to grid_map_msgs.egg-info/top_level.txt
+[7.473s] writing manifest file 'grid_map_msgs.egg-info/SOURCES.txt'
+[7.478s] reading manifest file 'grid_map_msgs.egg-info/SOURCES.txt'
+[7.482s] writing manifest file 'grid_map_msgs.egg-info/SOURCES.txt'
+[7.525s] [  2%] Built target ament_cmake_python_build_grid_map_msgs_egg
+[9.573s] [  4%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_generator_c.dir/rosidl_generator_c/grid_map_msgs/msg/detail/grid_map_info__functions.c.o[0m
+[9.590s] [  7%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_generator_c.dir/rosidl_generator_c/grid_map_msgs/srv/detail/get_grid_map__functions.c.o[0m
+[9.591s] [  7%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_generator_c.dir/rosidl_generator_c/grid_map_msgs/msg/detail/grid_map__functions.c.o[0m
+[9.609s] [  8%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_generator_c.dir/rosidl_generator_c/grid_map_msgs/srv/detail/set_grid_map__functions.c.o[0m
+[9.612s] [  9%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_generator_c.dir/rosidl_generator_c/grid_map_msgs/srv/detail/process_file__functions.c.o[0m
+[9.630s] [ 11%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_generator_c.dir/rosidl_generator_c/grid_map_msgs/srv/detail/get_grid_map_info__functions.c.o[0m
+[10.280s] [ 12%] [32m[1mLinking C shared library libgrid_map_msgs__rosidl_generator_c.so[0m
+[10.484s] [ 12%] Built target grid_map_msgs__rosidl_generator_c
+[10.535s] [ 14%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[10.545s] [ 15%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[10.597s] [ 16%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[11.346s] [ 16%] Built target grid_map_msgs__cpp
+[11.421s] [ 18%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[11.428s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[11.479s] [ 21%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[14.588s] [ 22%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/grid_map_msgs/msg/grid_map_info__type_support.cpp.o[0m
+[14.675s] [ 23%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/grid_map_msgs/msg/grid_map__type_support.cpp.o[0m
+[14.719s] [ 25%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/grid_map_msgs/srv/set_grid_map__type_support.cpp.o[0m
+[14.815s] [ 26%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/grid_map_msgs/srv/get_grid_map__type_support.cpp.o[0m
+[14.873s] [ 28%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/grid_map_msgs/srv/get_grid_map_info__type_support.cpp.o[0m
+[14.903s] [ 29%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/grid_map_msgs/srv/process_file__type_support.cpp.o[0m
+[14.965s] [ 30%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/grid_map_msgs/msg/detail/grid_map_info__type_support.c.o[0m
+[15.005s] [ 32%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/grid_map_msgs/msg/detail/grid_map__type_support.c.o[0m
+[15.025s] [ 33%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/grid_map_msgs/srv/detail/set_grid_map__type_support.c.o[0m
+[15.040s] [ 35%] [32m[1mLinking CXX shared library libgrid_map_msgs__rosidl_typesupport_c.so[0m
+[15.081s] [ 36%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/grid_map_msgs/srv/detail/get_grid_map__type_support.c.o[0m
+[15.200s] [ 39%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/grid_map_msgs/msg/detail/grid_map_info__type_support_c.cpp.o[0m
+[15.203s] [ 39%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/grid_map_msgs/srv/detail/get_grid_map_info__type_support.c.o[0m
+[15.228s] [ 39%] Built target grid_map_msgs__rosidl_typesupport_c
+[15.257s] [ 40%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/grid_map_msgs/msg/detail/grid_map__type_support_c.cpp.o[0m
+[15.264s] [ 42%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/grid_map_msgs/srv/detail/process_file__type_support.c.o[0m
+[15.301s] [ 43%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/grid_map_msgs/srv/detail/set_grid_map__type_support_c.cpp.o[0m
+[15.344s] [ 45%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/grid_map_msgs/srv/detail/get_grid_map__type_support_c.cpp.o[0m
+[15.425s] [ 46%] [32m[1mLinking C shared library libgrid_map_msgs__rosidl_typesupport_introspection_c.so[0m
+[15.487s] [ 46%] Built target grid_map_msgs__rosidl_typesupport_introspection_c
+[15.505s] [ 47%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/grid_map_msgs/srv/detail/get_grid_map_info__type_support_c.cpp.o[0m
+[15.818s] [ 49%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/grid_map_msgs/msg/grid_map_info__type_support.cpp.o[0m
+[16.177s] [ 50%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/grid_map_msgs/msg/detail/dds_fastrtps/grid_map_info__type_support.cpp.o[0m
+[16.240s] [ 52%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/grid_map_msgs/msg/detail/grid_map_info__type_support.cpp.o[0m
+[16.777s] [ 53%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/grid_map_msgs/msg/grid_map__type_support.cpp.o[0m
+[16.922s] [ 54%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/grid_map_msgs/srv/set_grid_map__type_support.cpp.o[0m
+[16.963s] [ 56%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/grid_map_msgs/srv/get_grid_map__type_support.cpp.o[0m
+[17.142s] [ 57%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/grid_map_msgs/srv/get_grid_map_info__type_support.cpp.o[0m
+[17.273s] [ 59%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/grid_map_msgs/srv/process_file__type_support.cpp.o[0m
+[17.352s] [ 60%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/grid_map_msgs/msg/detail/grid_map__type_support.cpp.o[0m
+[17.374s] [ 61%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/grid_map_msgs/srv/detail/process_file__type_support_c.cpp.o[0m
+[17.616s] [ 63%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/grid_map_msgs/msg/detail/dds_fastrtps/grid_map__type_support.cpp.o[0m
+[17.726s] [ 64%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/grid_map_msgs/srv/detail/dds_fastrtps/set_grid_map__type_support.cpp.o[0m
+[17.776s] [ 66%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/grid_map_msgs/srv/detail/set_grid_map__type_support.cpp.o[0m
+[17.847s] [ 67%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/grid_map_msgs/srv/detail/get_grid_map__type_support.cpp.o[0m
+[18.006s] [ 69%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/grid_map_msgs/srv/detail/get_grid_map_info__type_support.cpp.o[0m
+[18.099s] [ 70%] [32m[1mLinking CXX shared library libgrid_map_msgs__rosidl_typesupport_cpp.so[0m
+[18.216s] [ 70%] Built target grid_map_msgs__rosidl_typesupport_cpp
+[18.242s] [ 71%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/grid_map_msgs/srv/detail/dds_fastrtps/get_grid_map__type_support.cpp.o[0m
+[18.695s] [ 73%] [32m[1mLinking CXX shared library libgrid_map_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[18.990s] [ 73%] Built target grid_map_msgs__rosidl_typesupport_fastrtps_c
+[19.027s] [ 74%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/grid_map_msgs/srv/detail/process_file__type_support.cpp.o[0m
+[19.166s] [ 76%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/grid_map_msgs/srv/detail/dds_fastrtps/get_grid_map_info__type_support.cpp.o[0m
+[19.182s] [ 77%] [32mBuilding CXX object CMakeFiles/grid_map_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/grid_map_msgs/srv/detail/dds_fastrtps/process_file__type_support.cpp.o[0m
+[20.052s] [ 78%] [32m[1mLinking CXX shared library libgrid_map_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[20.160s] [ 80%] [32m[1mLinking CXX shared library libgrid_map_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[20.190s] [ 80%] Built target grid_map_msgs__rosidl_typesupport_introspection_cpp
+[20.298s] [ 80%] Built target grid_map_msgs__rosidl_typesupport_fastrtps_cpp
+[20.331s] [ 80%] Built target grid_map_msgs
+[20.363s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[22.515s] [ 81%] Built target grid_map_msgs__py
+[22.551s] [ 83%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_generator_py.dir/rosidl_generator_py/grid_map_msgs/msg/_grid_map_s.c.o[0m
+[22.557s] [ 84%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_generator_py.dir/rosidl_generator_py/grid_map_msgs/msg/_grid_map_info_s.c.o[0m
+[22.563s] [ 85%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_generator_py.dir/rosidl_generator_py/grid_map_msgs/srv/_set_grid_map_s.c.o[0m
+[22.567s] [ 87%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_generator_py.dir/rosidl_generator_py/grid_map_msgs/srv/_get_grid_map_s.c.o[0m
+[22.570s] [ 90%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_generator_py.dir/rosidl_generator_py/grid_map_msgs/srv/_process_file_s.c.o[0m
+[22.571s] [ 88%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_generator_py.dir/rosidl_generator_py/grid_map_msgs/srv/_get_grid_map_info_s.c.o[0m
+[23.025s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/grid_map_msgs/libgrid_map_msgs__rosidl_generator_py.so[0m
+[23.101s] [ 91%] Built target grid_map_msgs__rosidl_generator_py
+[23.144s] [ 94%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/grid_map_msgs/_grid_map_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[23.145s] [ 94%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/grid_map_msgs/_grid_map_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[23.161s] [ 95%] [32mBuilding C object CMakeFiles/grid_map_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/grid_map_msgs/_grid_map_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[23.548s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/grid_map_msgs/grid_map_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[23.602s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/grid_map_msgs/grid_map_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[23.644s] [ 98%] Built target grid_map_msgs__rosidl_typesupport_c__pyext
+[23.666s] [100%] [32m[1mLinking C shared library rosidl_generator_py/grid_map_msgs/grid_map_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[23.691s] [100%] Built target grid_map_msgs__rosidl_typesupport_fastrtps_c__pyext
+[23.731s] [100%] Built target grid_map_msgs__rosidl_typesupport_introspection_c__pyext
+[23.757s] Invoked command in '/home/victor/caramelo_goiania/src/build/grid_map_msgs' returned '0': AMENT_PREFIX_PATH=/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers:/home/victor/caramelo_goiania/install/sllidar_ros2:/home/victor/caramelo_goiania/install/rplidar_ros:/home/victor/caramelo_goiania/install/rf2o_laser_odometry:/home/victor/caramelo_goiania/src/install/sllidar_ros2:/home/victor/caramelo_goiania/src/install/rplidar_ros:/home/victor/caramelo_goiania/src/install/navegacao_pkg:/home/victor/caramelo_goiania/install/navegacao_pkg:/opt/ros/humble /usr/bin/cmake --build /home/victor/caramelo_goiania/src/build/grid_map_msgs -- -j8 -l8
+[24.110s] Invoking command in '/home/victor/caramelo_goiania/src/build/grid_map_msgs': AMENT_PREFIX_PATH=/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers:/home/victor/caramelo_goiania/install/sllidar_ros2:/home/victor/caramelo_goiania/install/rplidar_ros:/home/victor/caramelo_goiania/install/rf2o_laser_odometry:/home/victor/caramelo_goiania/src/install/sllidar_ros2:/home/victor/caramelo_goiania/src/install/rplidar_ros:/home/victor/caramelo_goiania/src/install/navegacao_pkg:/home/victor/caramelo_goiania/install/navegacao_pkg:/opt/ros/humble /usr/bin/cmake --install /home/victor/caramelo_goiania/src/build/grid_map_msgs
+[24.123s] -- Install configuration: "Release"
+[24.124s] -- Execute custom install script
+[24.124s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/ament_index/resource_index/rosidl_interfaces/grid_map_msgs
+[24.144s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map__functions.h
+[24.162s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map__struct.h
+[24.174s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map__type_support.h
+[24.190s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map_info__functions.h
+[24.203s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map_info__struct.h
+[24.217s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map_info__type_support.h
+[24.232s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/grid_map.h
+[24.247s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/grid_map_info.h
+[24.262s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/rosidl_generator_c__visibility_control.h
+[24.275s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map__functions.h
+[24.290s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map__struct.h
+[24.303s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map__type_support.h
+[24.316s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map_info__functions.h
+[24.330s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map_info__struct.h
+[24.343s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map_info__type_support.h
+[24.356s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/process_file__functions.h
+[24.370s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/process_file__struct.h
+[24.382s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/process_file__type_support.h
+[24.396s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/set_grid_map__functions.h
+[24.410s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/set_grid_map__struct.h
+[24.424s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/set_grid_map__type_support.h
+[24.438s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/get_grid_map.h
+[24.454s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/get_grid_map_info.h
+[24.468s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/process_file.h
+[24.482s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/set_grid_map.h
+[24.497s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/environment/library_path.sh
+[24.511s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/environment/library_path.dsv
+[24.525s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map__rosidl_typesupport_fastrtps_c.h
+[24.539s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map_info__rosidl_typesupport_fastrtps_c.h
+[24.552s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[24.565s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map__rosidl_typesupport_fastrtps_c.h
+[24.577s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map_info__rosidl_typesupport_fastrtps_c.h
+[24.630s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/process_file__rosidl_typesupport_fastrtps_c.h
+[24.681s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/set_grid_map__rosidl_typesupport_fastrtps_c.h
+[24.709s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map__builder.hpp
+[24.724s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map__struct.hpp
+[24.738s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map__traits.hpp
+[24.755s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map_info__builder.hpp
+[24.772s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map_info__struct.hpp
+[24.789s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map_info__traits.hpp
+[24.806s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/grid_map.hpp
+[24.823s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/grid_map_info.hpp
+[24.840s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map__builder.hpp
+[24.855s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map__struct.hpp
+[24.867s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map__traits.hpp
+[24.877s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map_info__builder.hpp
+[24.890s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map_info__struct.hpp
+[24.905s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map_info__traits.hpp
+[24.916s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/process_file__builder.hpp
+[24.926s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/process_file__struct.hpp
+[24.961s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/process_file__traits.hpp
+[24.988s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/set_grid_map__builder.hpp
+[25.020s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/set_grid_map__struct.hpp
+[25.054s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/set_grid_map__traits.hpp
+[25.087s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/get_grid_map.hpp
+[25.122s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/get_grid_map_info.hpp
+[25.159s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/process_file.hpp
+[25.196s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/set_grid_map.hpp
+[25.223s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map__rosidl_typesupport_fastrtps_cpp.hpp
+[25.255s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map_info__rosidl_typesupport_fastrtps_cpp.hpp
+[25.291s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[25.313s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map__rosidl_typesupport_fastrtps_cpp.hpp
+[25.326s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map_info__rosidl_typesupport_fastrtps_cpp.hpp
+[25.341s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/process_file__rosidl_typesupport_fastrtps_cpp.hpp
+[25.357s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/set_grid_map__rosidl_typesupport_fastrtps_cpp.hpp
+[25.391s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map__rosidl_typesupport_introspection_c.h
+[25.420s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map_info__rosidl_typesupport_introspection_c.h
+[25.459s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[25.483s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map__rosidl_typesupport_introspection_c.h
+[25.516s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map_info__rosidl_typesupport_introspection_c.h
+[25.543s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/process_file__rosidl_typesupport_introspection_c.h
+[25.581s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/set_grid_map__rosidl_typesupport_introspection_c.h
+[25.605s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map__rosidl_typesupport_introspection_cpp.hpp
+[25.639s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/msg/detail/grid_map_info__rosidl_typesupport_introspection_cpp.hpp
+[25.670s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map__rosidl_typesupport_introspection_cpp.hpp
+[25.693s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/get_grid_map_info__rosidl_typesupport_introspection_cpp.hpp
+[25.705s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/process_file__rosidl_typesupport_introspection_cpp.hpp
+[25.721s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/include/grid_map_msgs/grid_map_msgs/srv/detail/set_grid_map__rosidl_typesupport_introspection_cpp.hpp
+[25.736s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/environment/pythonpath.sh
+[25.751s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/environment/pythonpath.dsv
+[25.763s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs-2.0.0-py3.10.egg-info/PKG-INFO
+[25.779s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs-2.0.0-py3.10.egg-info/SOURCES.txt
+[25.795s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs-2.0.0-py3.10.egg-info/dependency_links.txt
+[25.813s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs-2.0.0-py3.10.egg-info/top_level.txt
+[25.834s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/__init__.py
+[25.852s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/_grid_map_msgs_s.ep.rosidl_typesupport_c.c
+[25.864s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/_grid_map_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[25.879s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/_grid_map_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[25.896s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/grid_map_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[25.913s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/grid_map_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[25.929s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/grid_map_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[25.943s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/libgrid_map_msgs__rosidl_generator_py.so
+[25.959s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/msg/__init__.py
+[25.974s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/msg/_grid_map.py
+[25.990s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/msg/_grid_map_info.py
+[26.006s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/msg/_grid_map_info_s.c
+[26.025s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/msg/_grid_map_s.c
+[26.038s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv/__init__.py
+[26.053s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv/_get_grid_map.py
+[26.069s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv/_get_grid_map_info.py
+[26.085s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv/_get_grid_map_info_s.c
+[26.101s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv/_get_grid_map_s.c
+[26.121s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv/_process_file.py
+[26.136s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv/_process_file_s.c
+[26.152s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv/_set_grid_map.py
+[26.172s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv/_set_grid_map_s.c
+[26.183s] -- Up-to-date symlink: /home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/grid_map_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[26.185s] -- Up-to-date symlink: /home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/grid_map_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[26.187s] -- Up-to-date symlink: /home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/grid_map_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[26.189s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/msg/GridMapInfo.idl
+[26.205s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/msg/GridMap.idl
+[26.222s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/srv/SetGridMap.idl
+[26.238s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/srv/GetGridMap.idl
+[26.254s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/srv/GetGridMapInfo.idl
+[26.270s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/srv/ProcessFile.idl
+[26.286s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/msg/GridMapInfo.msg
+[26.301s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/msg/GridMap.msg
+[26.322s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/srv/SetGridMap.srv
+[26.338s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/srv/SetGridMap_Request.msg
+[26.354s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/srv/SetGridMap_Response.msg
+[26.370s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/srv/GetGridMap.srv
+[26.387s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/srv/GetGridMap_Request.msg
+[26.401s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/srv/GetGridMap_Response.msg
+[26.419s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/srv/GetGridMapInfo.srv
+[26.435s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/srv/GetGridMapInfo_Request.msg
+[26.450s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/srv/GetGridMapInfo_Response.msg
+[26.466s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/srv/ProcessFile.srv
+[26.484s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/srv/ProcessFile_Request.msg
+[26.504s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/srv/ProcessFile_Response.msg
+[26.521s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/ament_index/resource_index/package_run_dependencies/grid_map_msgs
+[26.539s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/ament_index/resource_index/parent_prefix_path/grid_map_msgs
+[26.555s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/environment/ament_prefix_path.sh
+[26.569s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/environment/ament_prefix_path.dsv
+[26.586s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/environment/path.sh
+[26.602s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/environment/path.dsv
+[26.620s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/local_setup.bash
+[26.635s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/local_setup.sh
+[26.679s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/local_setup.zsh
+[26.691s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/local_setup.dsv
+[26.743s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/package.dsv
+[26.773s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/ament_index/resource_index/packages/grid_map_msgs
+[26.803s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/cmake/rosidl_cmake-extras.cmake
+[26.820s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[26.834s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[26.848s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[26.864s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[26.880s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[26.895s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[26.910s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/cmake/grid_map_msgsConfig.cmake
+[26.925s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/cmake/grid_map_msgsConfig-version.cmake
+[26.945s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/package.xml
+[26.957s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_generator_c.so
+[26.960s] -- Set runtime path of "/home/victor/caramelo_goiania/src/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_generator_c.so" to ""
+[26.962s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_typesupport_fastrtps_c.so
+[26.965s] -- Set runtime path of "/home/victor/caramelo_goiania/src/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[26.966s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_typesupport_fastrtps_cpp.so
+[26.970s] -- Set runtime path of "/home/victor/caramelo_goiania/src/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[26.973s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_typesupport_introspection_c.so
+[26.974s] -- Set runtime path of "/home/victor/caramelo_goiania/src/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_typesupport_introspection_c.so" to ""
+[26.975s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_typesupport_c.so
+[26.979s] -- Set runtime path of "/home/victor/caramelo_goiania/src/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_typesupport_c.so" to ""
+[26.981s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_typesupport_introspection_cpp.so
+[26.982s] -- Set runtime path of "/home/victor/caramelo_goiania/src/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[26.985s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_typesupport_cpp.so
+[26.986s] -- Set runtime path of "/home/victor/caramelo_goiania/src/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_typesupport_cpp.so" to ""
+[27.117s] Listing '/home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs'...
+[27.118s] Compiling '/home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/__init__.py'...
+[27.118s] Listing '/home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/msg'...
+[27.118s] Compiling '/home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/msg/__init__.py'...
+[27.118s] Compiling '/home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/msg/_grid_map.py'...
+[27.118s] Compiling '/home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/msg/_grid_map_info.py'...
+[27.118s] Listing '/home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv'...
+[27.118s] Compiling '/home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv/__init__.py'...
+[27.118s] Compiling '/home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv/_get_grid_map.py'...
+[27.118s] Compiling '/home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv/_get_grid_map_info.py'...
+[27.118s] Compiling '/home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv/_process_file.py'...
+[27.119s] Compiling '/home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages/grid_map_msgs/srv/_set_grid_map.py'...
+[27.151s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_generator_py.so
+[27.152s] -- Set runtime path of "/home/victor/caramelo_goiania/src/install/grid_map_msgs/lib/libgrid_map_msgs__rosidl_generator_py.so" to ""
+[27.152s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/cmake/export_grid_map_msgs__rosidl_generator_cExport.cmake
+[27.152s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/cmake/export_grid_map_msgs__rosidl_generator_cExport-release.cmake
+[27.152s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/cmake/export_grid_map_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[27.152s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/cmake/export_grid_map_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[27.152s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/cmake/export_grid_map_msgs__rosidl_generator_cppExport.cmake
+[27.152s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/cmake/export_grid_map_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[27.152s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/cmake/export_grid_map_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[27.153s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/cmake/grid_map_msgs__rosidl_typesupport_introspection_cExport.cmake
+[27.153s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/cmake/grid_map_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[27.153s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/cmake/grid_map_msgs__rosidl_typesupport_cExport.cmake
+[27.162s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/cmake/grid_map_msgs__rosidl_typesupport_cExport-release.cmake
+[27.174s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/cmake/grid_map_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[27.178s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/cmake/grid_map_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[27.178s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/cmake/grid_map_msgs__rosidl_typesupport_cppExport.cmake
+[27.179s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/cmake/grid_map_msgs__rosidl_typesupport_cppExport-release.cmake
+[27.180s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/cmake/export_grid_map_msgs__rosidl_generator_pyExport.cmake
+[27.181s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/cmake/export_grid_map_msgs__rosidl_generator_pyExport-release.cmake
+[27.183s] Invoked command in '/home/victor/caramelo_goiania/src/build/grid_map_msgs' returned '0': AMENT_PREFIX_PATH=/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers:/home/victor/caramelo_goiania/install/sllidar_ros2:/home/victor/caramelo_goiania/install/rplidar_ros:/home/victor/caramelo_goiania/install/rf2o_laser_odometry:/home/victor/caramelo_goiania/src/install/sllidar_ros2:/home/victor/caramelo_goiania/src/install/rplidar_ros:/home/victor/caramelo_goiania/src/install/navegacao_pkg:/home/victor/caramelo_goiania/install/navegacao_pkg:/opt/ros/humble /usr/bin/cmake --install /home/victor/caramelo_goiania/src/build/grid_map_msgs

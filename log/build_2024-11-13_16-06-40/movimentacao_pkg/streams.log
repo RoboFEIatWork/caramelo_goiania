@@ -1,0 +1,25 @@
+[1.187s] Invoking command in '/home/victor/caramelo_goiania/src/movimentacao_pkg': PYTHONPATH=/home/victor/caramelo_goiania/build/movimentacao_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victor/caramelo_goiania/install/movimentacao_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/movimentacao_pkg build --build-base /home/victor/caramelo_goiania/build/movimentacao_pkg/build install --record /home/victor/caramelo_goiania/build/movimentacao_pkg/install.log --single-version-externally-managed install_data
+[1.451s] running egg_info
+[1.452s] writing ../../build/movimentacao_pkg/movimentacao_pkg.egg-info/PKG-INFO
+[1.452s] writing dependency_links to ../../build/movimentacao_pkg/movimentacao_pkg.egg-info/dependency_links.txt
+[1.452s] writing entry points to ../../build/movimentacao_pkg/movimentacao_pkg.egg-info/entry_points.txt
+[1.452s] writing requirements to ../../build/movimentacao_pkg/movimentacao_pkg.egg-info/requires.txt
+[1.452s] writing top-level names to ../../build/movimentacao_pkg/movimentacao_pkg.egg-info/top_level.txt
+[1.455s] reading manifest file '../../build/movimentacao_pkg/movimentacao_pkg.egg-info/SOURCES.txt'
+[1.456s] writing manifest file '../../build/movimentacao_pkg/movimentacao_pkg.egg-info/SOURCES.txt'
+[1.460s] running build
+[1.460s] running build_py
+[1.460s] copying movimentacao_pkg/serial_node_arduino.py -> /home/victor/caramelo_goiania/build/movimentacao_pkg/build/lib/movimentacao_pkg
+[1.460s] running install
+[1.461s] running install_lib
+[1.462s] copying /home/victor/caramelo_goiania/build/movimentacao_pkg/build/lib/movimentacao_pkg/serial_node_arduino.py -> /home/victor/caramelo_goiania/install/movimentacao_pkg/lib/python3.10/site-packages/movimentacao_pkg
+[1.462s] byte-compiling /home/victor/caramelo_goiania/install/movimentacao_pkg/lib/python3.10/site-packages/movimentacao_pkg/serial_node_arduino.py to serial_node_arduino.cpython-310.pyc
+[1.464s] running install_data
+[1.465s] running install_egg_info
+[1.468s] removing '/home/victor/caramelo_goiania/install/movimentacao_pkg/lib/python3.10/site-packages/movimentacao_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.468s] Copying ../../build/movimentacao_pkg/movimentacao_pkg.egg-info to /home/victor/caramelo_goiania/install/movimentacao_pkg/lib/python3.10/site-packages/movimentacao_pkg-0.0.0-py3.10.egg-info
+[1.469s] running install_scripts
+[1.490s] Installing cinematica script to /home/victor/caramelo_goiania/install/movimentacao_pkg/lib/movimentacao_pkg
+[1.490s] Installing serial_node_arduino script to /home/victor/caramelo_goiania/install/movimentacao_pkg/lib/movimentacao_pkg
+[1.491s] writing list of installed files to '/home/victor/caramelo_goiania/build/movimentacao_pkg/install.log'
+[1.516s] Invoked command in '/home/victor/caramelo_goiania/src/movimentacao_pkg' returned '0': PYTHONPATH=/home/victor/caramelo_goiania/build/movimentacao_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victor/caramelo_goiania/install/movimentacao_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/movimentacao_pkg build --build-base /home/victor/caramelo_goiania/build/movimentacao_pkg/build install --record /home/victor/caramelo_goiania/build/movimentacao_pkg/install.log --single-version-externally-managed install_data

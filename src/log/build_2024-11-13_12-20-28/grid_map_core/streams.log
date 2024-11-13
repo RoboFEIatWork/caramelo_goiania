@@ -1,0 +1,151 @@
+[0.028s] Invoking command in '/home/victor/caramelo_goiania/src/build/grid_map_core': AMENT_PREFIX_PATH=/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers:/home/victor/caramelo_goiania/install/sllidar_ros2:/home/victor/caramelo_goiania/install/rplidar_ros:/home/victor/caramelo_goiania/install/rf2o_laser_odometry:/home/victor/caramelo_goiania/src/install/sllidar_ros2:/home/victor/caramelo_goiania/src/install/rplidar_ros:/home/victor/caramelo_goiania/src/install/navegacao_pkg:/home/victor/caramelo_goiania/install/navegacao_pkg:/opt/ros/humble /usr/bin/cmake /home/victor/caramelo_goiania/src/grid_map/grid_map_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/victor/caramelo_goiania/src/install/grid_map_core
+[0.112s] -- The C compiler identification is GNU 11.4.0
+[0.203s] -- The CXX compiler identification is GNU 11.4.0
+[0.215s] -- Detecting C compiler ABI info
+[0.307s] -- Detecting C compiler ABI info - done
+[0.321s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.322s] -- Detecting C compile features
+[0.323s] -- Detecting C compile features - done
+[0.325s] -- Detecting CXX compiler ABI info
+[0.505s] -- Detecting CXX compiler ABI info - done
+[0.530s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.531s] -- Detecting CXX compile features
+[0.531s] -- Detecting CXX compile features - done
+[0.546s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.171s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.320s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.385s] -- Found grid_map_cmake_helpers: 2.0.0 (/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/cmake)
+[1.399s] -- Setting build type to Release as none was specified.
+[1.409s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.578s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.584s] -- Looking for pthread.h
+[1.769s] -- Looking for pthread.h - found
+[1.769s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.931s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.931s] -- Found Threads: TRUE  
+[1.954s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.954s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/victor/caramelo_goiania/src/grid_map/grid_map_core/include>
+[1.954s] -- Configured cppcheck exclude dirs and/or files: 
+[1.958s] -- Added test 'lint_cmake' to check CMake code style
+[1.966s] -- Added test 'uncrustify' to check C / C++ code style
+[1.966s] -- Configured uncrustify additional arguments: 
+[1.971s] -- Added test 'xmllint' to check XML markup files
+[1.985s] -- Configuring done
+[2.023s] -- Generating done
+[2.027s] -- Build files have been written to: /home/victor/caramelo_goiania/src/build/grid_map_core
+[2.041s] Invoked command in '/home/victor/caramelo_goiania/src/build/grid_map_core' returned '0': AMENT_PREFIX_PATH=/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers:/home/victor/caramelo_goiania/install/sllidar_ros2:/home/victor/caramelo_goiania/install/rplidar_ros:/home/victor/caramelo_goiania/install/rf2o_laser_odometry:/home/victor/caramelo_goiania/src/install/sllidar_ros2:/home/victor/caramelo_goiania/src/install/rplidar_ros:/home/victor/caramelo_goiania/src/install/navegacao_pkg:/home/victor/caramelo_goiania/install/navegacao_pkg:/opt/ros/humble /usr/bin/cmake /home/victor/caramelo_goiania/src/grid_map/grid_map_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/victor/caramelo_goiania/src/install/grid_map_core
+[2.044s] Invoking command in '/home/victor/caramelo_goiania/src/build/grid_map_core': AMENT_PREFIX_PATH=/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers:/home/victor/caramelo_goiania/install/sllidar_ros2:/home/victor/caramelo_goiania/install/rplidar_ros:/home/victor/caramelo_goiania/install/rf2o_laser_odometry:/home/victor/caramelo_goiania/src/install/sllidar_ros2:/home/victor/caramelo_goiania/src/install/rplidar_ros:/home/victor/caramelo_goiania/src/install/navegacao_pkg:/home/victor/caramelo_goiania/install/navegacao_pkg:/opt/ros/humble /usr/bin/cmake --build /home/victor/caramelo_goiania/src/build/grid_map_core -- -j8 -l8
+[2.151s] [  5%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/GridMapMath.cpp.o[0m
+[2.151s] [  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.153s] [  8%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/SubmapGeometry.cpp.o[0m
+[2.154s] [ 11%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/Polygon.cpp.o[0m
+[2.171s] [ 14%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/BufferRegion.cpp.o[0m
+[2.175s] [ 17%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.175s] [ 20%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/GridMap.cpp.o[0m
+[2.176s] [ 22%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/CubicInterpolation.cpp.o[0m
+[5.371s] [ 25%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[5.485s] [ 25%] Built target gtest_main
+[5.515s] [ 28%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/iterators/GridMapIterator.cpp.o[0m
+[6.143s] [ 31%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/iterators/SubmapIterator.cpp.o[0m
+[6.835s] [ 34%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/iterators/CircleIterator.cpp.o[0m
+[7.186s] [ 37%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/iterators/EllipseIterator.cpp.o[0m
+[9.483s] [ 40%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/iterators/SpiralIterator.cpp.o[0m
+[9.495s] [ 42%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/iterators/PolygonIterator.cpp.o[0m
+[9.582s] [ 45%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/iterators/LineIterator.cpp.o[0m
+[12.662s] [ 48%] [32mBuilding CXX object CMakeFiles/grid_map_core.dir/src/iterators/SlidingWindowIterator.cpp.o[0m
+[24.149s] [ 51%] [32m[1mLinking CXX static library libgrid_map_core.a[0m
+[24.217s] [ 51%] Built target grid_map_core
+[24.854s] [ 54%] [32m[1mLinking CXX static library libgtest.a[0m
+[24.913s] [ 54%] Built target gtest
+[24.958s] [ 57%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/test_grid_map_core.cpp.o[0m
+[24.958s] [ 60%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/CubicConvolutionInterpolationTest.cpp.o[0m
+[24.958s] [ 62%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/test_helpers.cpp.o[0m
+[24.961s] [ 65%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/CubicInterpolationTest.cpp.o[0m
+[24.972s] [ 68%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/GridMapTest.cpp.o[0m
+[24.972s] [ 71%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/LineIteratorTest.cpp.o[0m
+[24.972s] [ 74%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/GridMapMathTest.cpp.o[0m
+[24.972s] [ 77%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/GridMapIteratorTest.cpp.o[0m
+[27.934s] [ 80%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/EllipseIteratorTest.cpp.o[0m
+[31.609s] [ 82%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/SubmapIteratorTest.cpp.o[0m
+[32.047s] [ 85%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/PolygonIteratorTest.cpp.o[0m
+[32.301s] [ 88%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/PolygonTest.cpp.o[0m
+[34.819s] [ 91%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/EigenPluginsTest.cpp.o[0m
+[35.036s] [ 94%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/SpiralIteratorTest.cpp.o[0m
+[35.320s] [ 97%] [32mBuilding CXX object CMakeFiles/grid_map_core-test.dir/test/SlidingWindowIteratorTest.cpp.o[0m
+[43.282s] [100%] [32m[1mLinking CXX executable grid_map_core-test[0m
+[43.541s] [100%] Built target grid_map_core-test
+[43.558s] Invoked command in '/home/victor/caramelo_goiania/src/build/grid_map_core' returned '0': AMENT_PREFIX_PATH=/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers:/home/victor/caramelo_goiania/install/sllidar_ros2:/home/victor/caramelo_goiania/install/rplidar_ros:/home/victor/caramelo_goiania/install/rf2o_laser_odometry:/home/victor/caramelo_goiania/src/install/sllidar_ros2:/home/victor/caramelo_goiania/src/install/rplidar_ros:/home/victor/caramelo_goiania/src/install/navegacao_pkg:/home/victor/caramelo_goiania/install/navegacao_pkg:/opt/ros/humble /usr/bin/cmake --build /home/victor/caramelo_goiania/src/build/grid_map_core -- -j8 -l8
+[43.695s] Invoking command in '/home/victor/caramelo_goiania/src/build/grid_map_core': AMENT_PREFIX_PATH=/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers:/home/victor/caramelo_goiania/install/sllidar_ros2:/home/victor/caramelo_goiania/install/rplidar_ros:/home/victor/caramelo_goiania/install/rf2o_laser_odometry:/home/victor/caramelo_goiania/src/install/sllidar_ros2:/home/victor/caramelo_goiania/src/install/rplidar_ros:/home/victor/caramelo_goiania/src/install/navegacao_pkg:/home/victor/caramelo_goiania/install/navegacao_pkg:/opt/ros/humble /usr/bin/cmake --install /home/victor/caramelo_goiania/src/build/grid_map_core
+[43.704s] -- Install configuration: "Release"
+[43.706s] -- Execute custom install script
+[43.706s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_core/share/grid_map_core/doc/grid_map_conventions.pdf
+[43.718s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_core/share/grid_map_core/doc/grid_map_conventions.png
+[43.728s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_core/share/grid_map_core/doc/grid_map_layers.pdf
+[43.737s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_core/share/grid_map_core/doc/grid_map_layers.png
+[43.747s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_core/share/grid_map_core/doc/interpolationGaussWorld.gif
+[43.756s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_core/share/grid_map_core/doc/interpolationSineWorld.gif
+[43.766s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_core/share/grid_map_core/doc/iterators/circle_iterator.gif
+[43.777s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_core/share/grid_map_core/doc/iterators/circle_iterator_preview.gif
+[43.789s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_core/share/grid_map_core/doc/iterators/ellipse_iterator.gif
+[43.799s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_core/share/grid_map_core/doc/iterators/ellipse_iterator_preview.gif
+[43.811s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_core/share/grid_map_core/doc/iterators/grid_map_iterator.gif
+[43.823s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_core/share/grid_map_core/doc/iterators/grid_map_iterator_preview.gif
+[43.833s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_core/share/grid_map_core/doc/iterators/line_iterator.gif
+[43.845s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_core/share/grid_map_core/doc/iterators/line_iterator_preview.gif
+[43.859s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_core/share/grid_map_core/doc/iterators/polygon_iterator.gif
+[43.875s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_core/share/grid_map_core/doc/iterators/polygon_iterator_preview.gif
+[43.888s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_core/share/grid_map_core/doc/iterators/spiral_iterator.gif
+[43.901s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_core/share/grid_map_core/doc/iterators/spiral_iterator_preview.gif
+[43.916s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_core/share/grid_map_core/doc/iterators/submap_iterator.gif
+[43.928s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_core/share/grid_map_core/doc/iterators/submap_iterator_preview.gif
+[43.946s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_core/share/grid_map_core/doc/move_method.gif
+[43.959s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_core/share/grid_map_core/doc/setposition_method.gif
+[43.973s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_core/share/grid_map_core/environment/library_path.sh
+[43.989s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_core/share/grid_map_core/environment/library_path.dsv
+[44.002s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_core/share/ament_index/resource_index/package_run_dependencies/grid_map_core
+[44.016s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_core/share/ament_index/resource_index/parent_prefix_path/grid_map_core
+[44.027s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_core/share/grid_map_core/environment/ament_prefix_path.sh
+[44.038s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_core/share/grid_map_core/environment/ament_prefix_path.dsv
+[44.051s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_core/share/grid_map_core/environment/path.sh
+[44.063s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_core/share/grid_map_core/environment/path.dsv
+[44.078s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_core/share/grid_map_core/local_setup.bash
+[44.088s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_core/share/grid_map_core/local_setup.sh
+[44.100s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_core/share/grid_map_core/local_setup.zsh
+[44.111s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_core/share/grid_map_core/local_setup.dsv
+[44.121s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_core/share/grid_map_core/package.dsv
+[44.132s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_core/share/ament_index/resource_index/packages/grid_map_core
+[44.143s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_core/share/grid_map_core/cmake/grid_map_core-extras.cmake
+[44.153s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_core/share/grid_map_core/cmake/ament_cmake_export_targets-extras.cmake
+[44.164s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_core/share/grid_map_core/cmake/ament_cmake_export_dependencies-extras.cmake
+[44.173s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_core/share/grid_map_core/cmake/grid_map_coreConfig.cmake
+[44.183s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_core/share/grid_map_core/cmake/grid_map_coreConfig-version.cmake
+[44.192s] -- Symlinking: /home/victor/caramelo_goiania/src/install/grid_map_core/share/grid_map_core/package.xml
+[44.202s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_core/lib/libgrid_map_core.a
+[44.203s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_core/include/grid_map_core
+[44.203s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_core/include/grid_map_core/grid_map_core
+[44.203s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_core/include/grid_map_core/grid_map_core/eigen_plugins
+[44.203s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_core/include/grid_map_core/grid_map_core/eigen_plugins/Functors.hpp
+[44.203s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_core/include/grid_map_core/grid_map_core/eigen_plugins/FunctorsPlugin.hpp
+[44.203s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_core/include/grid_map_core/grid_map_core/eigen_plugins/DenseBasePlugin.hpp
+[44.204s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_core/include/grid_map_core/grid_map_core/Polygon.hpp
+[44.204s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_core/include/grid_map_core/grid_map_core/SubmapGeometry.hpp
+[44.204s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_core/include/grid_map_core/grid_map_core/BufferRegion.hpp
+[44.204s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_core/include/grid_map_core/grid_map_core/grid_map_core.hpp
+[44.204s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_core/include/grid_map_core/grid_map_core/GridMapMath.hpp
+[44.204s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_core/include/grid_map_core/grid_map_core/CubicInterpolation.hpp
+[44.204s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_core/include/grid_map_core/grid_map_core/iterators
+[44.205s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_core/include/grid_map_core/grid_map_core/iterators/SpiralIterator.hpp
+[44.205s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_core/include/grid_map_core/grid_map_core/iterators/SubmapIterator.hpp
+[44.205s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_core/include/grid_map_core/grid_map_core/iterators/EllipseIterator.hpp
+[44.205s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_core/include/grid_map_core/grid_map_core/iterators/PolygonIterator.hpp
+[44.205s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_core/include/grid_map_core/grid_map_core/iterators/SlidingWindowIterator.hpp
+[44.205s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_core/include/grid_map_core/grid_map_core/iterators/iterators.hpp
+[44.205s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_core/include/grid_map_core/grid_map_core/iterators/CircleIterator.hpp
+[44.205s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_core/include/grid_map_core/grid_map_core/iterators/LineIterator.hpp
+[44.206s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_core/include/grid_map_core/grid_map_core/iterators/GridMapIterator.hpp
+[44.206s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_core/include/grid_map_core/grid_map_core/GridMap.hpp
+[44.206s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_core/include/grid_map_core/grid_map_core/TypeDefs.hpp
+[44.206s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_core/include/grid_map_core/grid_map_core/gtest_eigen.hpp
+[44.206s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_core/share/grid_map_core/cmake/export_grid_map_coreExport.cmake
+[44.206s] -- Installing: /home/victor/caramelo_goiania/src/install/grid_map_core/share/grid_map_core/cmake/export_grid_map_coreExport-release.cmake
+[44.210s] Invoked command in '/home/victor/caramelo_goiania/src/build/grid_map_core' returned '0': AMENT_PREFIX_PATH=/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers:/home/victor/caramelo_goiania/install/sllidar_ros2:/home/victor/caramelo_goiania/install/rplidar_ros:/home/victor/caramelo_goiania/install/rf2o_laser_odometry:/home/victor/caramelo_goiania/src/install/sllidar_ros2:/home/victor/caramelo_goiania/src/install/rplidar_ros:/home/victor/caramelo_goiania/src/install/navegacao_pkg:/home/victor/caramelo_goiania/install/navegacao_pkg:/opt/ros/humble /usr/bin/cmake --install /home/victor/caramelo_goiania/src/build/grid_map_core

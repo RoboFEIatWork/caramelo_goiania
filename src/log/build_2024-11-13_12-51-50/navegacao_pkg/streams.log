@@ -1,0 +1,30 @@
+[0.857s] Invoking command in '/home/victor/caramelo_goiania/src/build/navegacao_pkg': PYTHONPATH=/home/victor/caramelo_goiania/src/build/navegacao_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/victor/caramelo_goiania/src/build/navegacao_pkg/build --no-deps symlink_data --force
+[1.232s] running develop
+[1.232s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.232s]   warnings.warn(
+[1.434s] running egg_info
+[1.434s] writing navegacao_pkg.egg-info/PKG-INFO
+[1.434s] writing dependency_links to navegacao_pkg.egg-info/dependency_links.txt
+[1.434s] writing entry points to navegacao_pkg.egg-info/entry_points.txt
+[1.434s] writing requirements to navegacao_pkg.egg-info/requires.txt
+[1.434s] writing top-level names to navegacao_pkg.egg-info/top_level.txt
+[1.436s] reading manifest file 'navegacao_pkg.egg-info/SOURCES.txt'
+[1.437s] writing manifest file 'navegacao_pkg.egg-info/SOURCES.txt'
+[1.438s] running build_ext
+[1.438s] Creating /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao-pkg.egg-link (link to .)
+[1.439s] Installing camera_node script to /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/navegacao_pkg
+[1.439s] Installing gridmap script to /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/navegacao_pkg
+[1.440s] Installing segue_linha script to /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/navegacao_pkg
+[1.440s] Installing serial_node_arduino script to /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/navegacao_pkg
+[1.440s] 
+[1.440s] Installed /home/victor/caramelo_goiania/src/build/navegacao_pkg
+[1.440s] running symlink_data
+[1.440s] symbolically linking /home/victor/caramelo_goiania/src/build/navegacao_pkg/resource/navegacao_pkg -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/share/ament_index/resource_index/packages
+[1.440s] symbolically linking /home/victor/caramelo_goiania/src/build/navegacao_pkg/package.xml -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/share/navegacao_pkg
+[1.441s] symbolically linking /home/victor/caramelo_goiania/src/build/navegacao_pkg/config/rviz/rplidar_cartographer.rviz -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/share/navegacao_pkg/config/rviz
+[1.441s] symbolically linking /home/victor/caramelo_goiania/src/build/navegacao_pkg/config/rviz/mapping_cartographer.rviz -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/share/navegacao_pkg/config/rviz
+[1.441s] symbolically linking /home/victor/caramelo_goiania/src/build/navegacao_pkg/config/nav/cartographer.lua -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/share/navegacao_pkg/config/nav
+[1.441s] symbolically linking /home/victor/caramelo_goiania/src/build/navegacao_pkg/launch/cartographer_2.launch.py -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/share/navegacao_pkg/launch/
+[1.441s] symbolically linking /home/victor/caramelo_goiania/src/build/navegacao_pkg/launch/cartographer.launch.py -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/share/navegacao_pkg/launch/
+[1.441s] symbolically linking /home/victor/caramelo_goiania/src/build/navegacao_pkg/launch/occupancy_grid.launch.py -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/share/navegacao_pkg/launch/
+[1.474s] Invoked command in '/home/victor/caramelo_goiania/src/build/navegacao_pkg' returned '0': PYTHONPATH=/home/victor/caramelo_goiania/src/build/navegacao_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/victor/caramelo_goiania/src/build/navegacao_pkg/build --no-deps symlink_data --force

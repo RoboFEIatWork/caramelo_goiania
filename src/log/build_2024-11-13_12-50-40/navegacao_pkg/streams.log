@@ -1,0 +1,51 @@
+[0.851s] Invoking command in '/home/victor/caramelo_goiania/src/build/navegacao_pkg': PYTHONPATH=/home/victor/caramelo_goiania/src/build/navegacao_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/victor/caramelo_goiania/src/build/navegacao_pkg/build
+[1.135s] running develop
+[1.135s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.135s]   warnings.warn(
+[1.298s] Removing /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao-pkg.egg-link (link to .)
+[1.318s] Invoked command in '/home/victor/caramelo_goiania/src/build/navegacao_pkg' returned '0': PYTHONPATH=/home/victor/caramelo_goiania/src/build/navegacao_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/victor/caramelo_goiania/src/build/navegacao_pkg/build
+[1.320s] Invoking command in '/home/victor/caramelo_goiania/src/navegacao_pkg': PYTHONPATH=/home/victor/caramelo_goiania/src/build/navegacao_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/navegacao_pkg build --build-base /home/victor/caramelo_goiania/src/build/navegacao_pkg/build install --record /home/victor/caramelo_goiania/src/build/navegacao_pkg/install.log --single-version-externally-managed install_data --force
+[1.533s] running egg_info
+[1.534s] writing ../build/navegacao_pkg/navegacao_pkg.egg-info/PKG-INFO
+[1.534s] writing dependency_links to ../build/navegacao_pkg/navegacao_pkg.egg-info/dependency_links.txt
+[1.534s] writing entry points to ../build/navegacao_pkg/navegacao_pkg.egg-info/entry_points.txt
+[1.534s] writing requirements to ../build/navegacao_pkg/navegacao_pkg.egg-info/requires.txt
+[1.534s] writing top-level names to ../build/navegacao_pkg/navegacao_pkg.egg-info/top_level.txt
+[1.536s] reading manifest file '../build/navegacao_pkg/navegacao_pkg.egg-info/SOURCES.txt'
+[1.542s] writing manifest file '../build/navegacao_pkg/navegacao_pkg.egg-info/SOURCES.txt'
+[1.542s] running build
+[1.542s] running build_py
+[1.543s] copying navegacao_pkg/gridmap.py -> /home/victor/caramelo_goiania/src/build/navegacao_pkg/build/lib/navegacao_pkg
+[1.543s] running install
+[1.543s] running install_lib
+[1.544s] creating /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg
+[1.545s] copying /home/victor/caramelo_goiania/src/build/navegacao_pkg/build/lib/navegacao_pkg/camera_node.py -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg
+[1.545s] copying /home/victor/caramelo_goiania/src/build/navegacao_pkg/build/lib/navegacao_pkg/serial_node_arduino.py -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg
+[1.545s] copying /home/victor/caramelo_goiania/src/build/navegacao_pkg/build/lib/navegacao_pkg/gridmap.py -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg
+[1.545s] copying /home/victor/caramelo_goiania/src/build/navegacao_pkg/build/lib/navegacao_pkg/__init__.py -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg
+[1.545s] copying /home/victor/caramelo_goiania/src/build/navegacao_pkg/build/lib/navegacao_pkg/segue_pid.py -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg
+[1.545s] copying /home/victor/caramelo_goiania/src/build/navegacao_pkg/build/lib/navegacao_pkg/segue_linha.py -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg
+[1.546s] byte-compiling /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg/camera_node.py to camera_node.cpython-310.pyc
+[1.547s] byte-compiling /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg/serial_node_arduino.py to serial_node_arduino.cpython-310.pyc
+[1.548s] byte-compiling /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg/gridmap.py to gridmap.cpython-310.pyc
+[1.549s] byte-compiling /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg/__init__.py to __init__.cpython-310.pyc
+[1.549s] byte-compiling /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg/segue_pid.py to segue_pid.cpython-310.pyc
+[1.550s] byte-compiling /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg/segue_linha.py to segue_linha.cpython-310.pyc
+[1.550s] running install_data
+[1.550s] copying resource/navegacao_pkg -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/share/ament_index/resource_index/packages
+[1.551s] copying package.xml -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/share/navegacao_pkg
+[1.551s] copying config/rviz/rplidar_cartographer.rviz -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/share/navegacao_pkg/config/rviz
+[1.551s] copying config/rviz/mapping_cartographer.rviz -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/share/navegacao_pkg/config/rviz
+[1.551s] copying config/nav/cartographer.lua -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/share/navegacao_pkg/config/nav
+[1.551s] copying launch/cartographer_2.launch.py -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/share/navegacao_pkg/launch/
+[1.551s] copying launch/cartographer.launch.py -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/share/navegacao_pkg/launch/
+[1.551s] copying launch/occupancy_grid.launch.py -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/share/navegacao_pkg/launch/
+[1.551s] running install_egg_info
+[1.553s] Copying ../build/navegacao_pkg/navegacao_pkg.egg-info to /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg-0.0.0-py3.10.egg-info
+[1.554s] running install_scripts
+[1.571s] Installing camera_node script to /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/navegacao_pkg
+[1.571s] Installing gridmap script to /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/navegacao_pkg
+[1.571s] Installing segue_linha script to /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/navegacao_pkg
+[1.572s] Installing serial_node_arduino script to /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/navegacao_pkg
+[1.572s] writing list of installed files to '/home/victor/caramelo_goiania/src/build/navegacao_pkg/install.log'
+[1.590s] Invoked command in '/home/victor/caramelo_goiania/src/navegacao_pkg' returned '0': PYTHONPATH=/home/victor/caramelo_goiania/src/build/navegacao_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/navegacao_pkg build --build-base /home/victor/caramelo_goiania/src/build/navegacao_pkg/build install --record /home/victor/caramelo_goiania/src/build/navegacao_pkg/install.log --single-version-externally-managed install_data --force

@@ -1,0 +1,45 @@
+running develop
+Removing /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao-pkg.egg-link (link to .)
+running egg_info
+writing ../build/navegacao_pkg/navegacao_pkg.egg-info/PKG-INFO
+writing dependency_links to ../build/navegacao_pkg/navegacao_pkg.egg-info/dependency_links.txt
+writing entry points to ../build/navegacao_pkg/navegacao_pkg.egg-info/entry_points.txt
+writing requirements to ../build/navegacao_pkg/navegacao_pkg.egg-info/requires.txt
+writing top-level names to ../build/navegacao_pkg/navegacao_pkg.egg-info/top_level.txt
+reading manifest file '../build/navegacao_pkg/navegacao_pkg.egg-info/SOURCES.txt'
+writing manifest file '../build/navegacao_pkg/navegacao_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying navegacao_pkg/serial_node_arduino.py -> /home/victor/caramelo_goiania/src/build/navegacao_pkg/build/lib/navegacao_pkg
+running install
+running install_lib
+creating /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg
+copying /home/victor/caramelo_goiania/src/build/navegacao_pkg/build/lib/navegacao_pkg/camera_node.py -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg
+copying /home/victor/caramelo_goiania/src/build/navegacao_pkg/build/lib/navegacao_pkg/serial_node_arduino.py -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg
+copying /home/victor/caramelo_goiania/src/build/navegacao_pkg/build/lib/navegacao_pkg/gridmap.py -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg
+copying /home/victor/caramelo_goiania/src/build/navegacao_pkg/build/lib/navegacao_pkg/__init__.py -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg
+copying /home/victor/caramelo_goiania/src/build/navegacao_pkg/build/lib/navegacao_pkg/segue_pid.py -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg
+copying /home/victor/caramelo_goiania/src/build/navegacao_pkg/build/lib/navegacao_pkg/segue_linha.py -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg
+byte-compiling /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg/camera_node.py to camera_node.cpython-310.pyc
+byte-compiling /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg/serial_node_arduino.py to serial_node_arduino.cpython-310.pyc
+byte-compiling /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg/gridmap.py to gridmap.cpython-310.pyc
+byte-compiling /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg/segue_pid.py to segue_pid.cpython-310.pyc
+byte-compiling /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg/segue_linha.py to segue_linha.cpython-310.pyc
+running install_data
+copying resource/navegacao_pkg -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/share/navegacao_pkg
+copying config/rviz/rplidar_cartographer.rviz -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/share/navegacao_pkg/config/rviz
+copying config/rviz/mapping_cartographer.rviz -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/share/navegacao_pkg/config/rviz
+copying config/nav/cartographer.lua -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/share/navegacao_pkg/config/nav
+copying launch/cartographer_2.launch.py -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/share/navegacao_pkg/launch/
+copying launch/cartographer.launch.py -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/share/navegacao_pkg/launch/
+copying launch/occupancy_grid.launch.py -> /home/victor/caramelo_goiania/src/install/navegacao_pkg/share/navegacao_pkg/launch/
+running install_egg_info
+Copying ../build/navegacao_pkg/navegacao_pkg.egg-info to /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages/navegacao_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing camera_node script to /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/navegacao_pkg
+Installing gridmap script to /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/navegacao_pkg
+Installing segue_linha script to /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/navegacao_pkg
+Installing serial_node_arduino script to /home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/navegacao_pkg
+writing list of installed files to '/home/victor/caramelo_goiania/src/build/navegacao_pkg/install.log'

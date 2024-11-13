@@ -1,5 +1,4 @@
 [console_scripts]
-camera_node = navegacao_pkg.camera_node:main
-segue_linha = navegacao_pkg.segue_linha:main
+cinamatica = navegacao_pkg.cinamatica:main
 serial_node_arduino = navegacao_pkg.serial_node_arduino:main
 

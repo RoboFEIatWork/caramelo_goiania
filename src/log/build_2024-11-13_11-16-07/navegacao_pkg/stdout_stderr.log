@@ -1,0 +1,9 @@
+running egg_info
+creating ../build/navegacao_pkg/pacote_de_exemplos.egg-info
+writing ../build/navegacao_pkg/pacote_de_exemplos.egg-info/PKG-INFO
+writing dependency_links to ../build/navegacao_pkg/pacote_de_exemplos.egg-info/dependency_links.txt
+writing entry points to ../build/navegacao_pkg/pacote_de_exemplos.egg-info/entry_points.txt
+writing requirements to ../build/navegacao_pkg/pacote_de_exemplos.egg-info/requires.txt
+writing top-level names to ../build/navegacao_pkg/pacote_de_exemplos.egg-info/top_level.txt
+writing manifest file '../build/navegacao_pkg/pacote_de_exemplos.egg-info/SOURCES.txt'
+error: package directory 'pacote_de_exemplos' does not exist

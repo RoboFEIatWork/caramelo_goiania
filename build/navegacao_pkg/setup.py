@@ -1,1 +1,0 @@
-/home/victor/caramelo_goiania/src/navegacao_pkg/setup.py

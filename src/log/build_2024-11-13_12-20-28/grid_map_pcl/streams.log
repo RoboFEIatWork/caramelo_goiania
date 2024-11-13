@@ -1,0 +1,160 @@
+[0.029s] Invoking command in '/home/victor/caramelo_goiania/src/build/grid_map_pcl': AMENT_PREFIX_PATH=/home/victor/caramelo_goiania/src/install/grid_map_ros:/home/victor/caramelo_goiania/src/install/grid_map_cv:/home/victor/caramelo_goiania/src/install/grid_map_msgs:/home/victor/caramelo_goiania/src/install/grid_map_core:/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/victor/caramelo_goiania/src/install/grid_map_ros:/home/victor/caramelo_goiania/src/install/grid_map_cv:/home/victor/caramelo_goiania/src/install/grid_map_msgs:/home/victor/caramelo_goiania/src/install/grid_map_core:/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers:/home/victor/caramelo_goiania/install/sllidar_ros2:/home/victor/caramelo_goiania/install/rplidar_ros:/home/victor/caramelo_goiania/install/rf2o_laser_odometry:/home/victor/caramelo_goiania/src/install/sllidar_ros2:/home/victor/caramelo_goiania/src/install/rplidar_ros:/home/victor/caramelo_goiania/src/install/navegacao_pkg:/home/victor/caramelo_goiania/install/navegacao_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/victor/caramelo_goiania/src/install/grid_map_ros/lib:/home/victor/caramelo_goiania/src/install/grid_map_cv/lib:/home/victor/caramelo_goiania/src/install/grid_map_msgs/lib:/home/victor/caramelo_goiania/src/install/grid_map_core/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/victor/caramelo_goiania/src/grid_map/grid_map_pcl -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/victor/caramelo_goiania/src/install/grid_map_pcl
+[0.118s] -- The C compiler identification is GNU 11.4.0
+[0.207s] -- The CXX compiler identification is GNU 11.4.0
+[0.217s] -- Detecting C compiler ABI info
+[0.335s] -- Detecting C compiler ABI info - done
+[0.354s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.359s] -- Detecting C compile features
+[0.359s] -- Detecting C compile features - done
+[0.366s] -- Detecting CXX compiler ABI info
+[0.493s] -- Detecting CXX compiler ABI info - done
+[0.509s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.509s] -- Detecting CXX compile features
+[0.510s] -- Detecting CXX compile features - done
+[0.517s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.772s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.894s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.970s] -- Found grid_map_cmake_helpers: 2.0.0 (/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers/share/grid_map_cmake_helpers/cmake)
+[0.972s] -- Found grid_map_core: 2.0.0 (/home/victor/caramelo_goiania/src/install/grid_map_core/share/grid_map_core/cmake)
+[0.989s] -- Found grid_map_msgs: 2.0.0 (/home/victor/caramelo_goiania/src/install/grid_map_msgs/share/grid_map_msgs/cmake)
+[1.082s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.094s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.114s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.143s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.168s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.243s] -- Found grid_map_ros: 2.0.0 (/home/victor/caramelo_goiania/src/install/grid_map_ros/share/grid_map_ros/cmake)
+[1.403s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.408s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.446s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.518s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.523s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.547s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.553s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.564s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.578s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.598s] -- Looking for pthread.h
+[1.714s] -- Looking for pthread.h - found
+[1.714s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.844s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.846s] -- Found Threads: TRUE  
+[2.204s] -- Checking for module 'eigen3'
+[2.226s] --   Found eigen3, version 3.4.0
+[2.284s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.284s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.333s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[2.365s] -- Checking for module 'flann'
+[2.393s] --   Found flann, version 1.9.1
+[2.450s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[2.450s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.513s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[2.525s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[2.806s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[2.806s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[2.839s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[2.905s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[3.003s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[3.052s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[3.437s] -- Found X11: /usr/include   
+[3.446s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[3.930s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[3.930s] -- Looking for gethostbyname
+[4.226s] -- Looking for gethostbyname - found
+[4.226s] -- Looking for connect
+[4.540s] -- Looking for connect - found
+[4.540s] -- Looking for remove
+[4.786s] -- Looking for remove - found
+[4.787s] -- Looking for shmat
+[5.029s] -- Looking for shmat - found
+[5.029s] -- Looking for IceConnectionNumber in ICE
+[5.306s] -- Looking for IceConnectionNumber in ICE - found
+[5.726s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[5.741s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[5.750s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[5.765s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[5.803s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[5.834s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[5.855s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[5.877s] -- Found utf8cpp: /usr/include/utf8cpp  
+[6.169s] -- Checking for module 'libusb-1.0'
+[6.236s] --   Found libusb-1.0, version 1.0.25
+[6.350s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[6.358s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[6.359s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[6.515s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[6.516s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[6.525s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[7.563s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[7.607s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[7.667s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[9.378s] -- Found Qhull version 8.0.2
+[10.637s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[11.807s] -- looking for PCL_COMMON
+[11.808s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[11.809s] -- looking for PCL_KDTREE
+[11.809s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[11.810s] -- looking for PCL_OCTREE
+[11.812s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[11.814s] -- looking for PCL_SEARCH
+[11.816s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[11.819s] -- looking for PCL_SAMPLE_CONSENSUS
+[11.821s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[11.822s] -- looking for PCL_FILTERS
+[11.826s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[11.828s] -- looking for PCL_2D
+[11.829s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[11.831s] -- looking for PCL_GEOMETRY
+[11.832s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[11.834s] -- looking for PCL_IO
+[11.838s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[11.841s] -- looking for PCL_FEATURES
+[11.842s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[11.844s] -- looking for PCL_ML
+[11.847s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[11.856s] -- looking for PCL_SEGMENTATION
+[11.857s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[11.858s] -- looking for PCL_VISUALIZATION
+[11.859s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[11.860s] -- looking for PCL_SURFACE
+[11.863s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[11.864s] -- looking for PCL_REGISTRATION
+[11.865s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[11.865s] -- looking for PCL_KEYPOINTS
+[11.866s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[11.868s] -- looking for PCL_TRACKING
+[11.870s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[11.873s] -- looking for PCL_RECOGNITION
+[11.876s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[11.878s] -- looking for PCL_STEREO
+[11.886s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[11.886s] -- looking for PCL_APPS
+[11.887s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[11.890s] -- looking for PCL_IN_HAND_SCANNER
+[11.891s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[11.891s] -- looking for PCL_MODELER
+[11.892s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[11.893s] -- looking for PCL_POINT_CLOUD_EDITOR
+[11.894s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[11.895s] -- looking for PCL_OUTOFCORE
+[11.913s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[11.914s] -- looking for PCL_PEOPLE
+[11.921s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[11.929s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[14.483s] -- Setting build type to Release as none was specified.
+[14.768s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[15.231s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[15.328s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[15.330s] -- Configured cppcheck include dirs: /home/victor/caramelo_goiania/src/grid_map/grid_map_pcl/include
+[15.330s] -- Configured cppcheck exclude dirs and/or files: 
+[15.332s] -- Added test 'flake8' to check Python code syntax and style conventions
+[15.334s] -- Added test 'lint_cmake' to check CMake code style
+[15.337s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[15.342s] -- Added test 'uncrustify' to check C / C++ code style
+[15.343s] -- Configured uncrustify additional arguments: 
+[15.347s] -- Added test 'xmllint' to check XML markup files
+[15.363s] -- Configuring done
+[16.544s] -- Generating done
+[16.569s] -- Build files have been written to: /home/victor/caramelo_goiania/src/build/grid_map_pcl
+[16.780s] Invoked command in '/home/victor/caramelo_goiania/src/build/grid_map_pcl' returned '0': AMENT_PREFIX_PATH=/home/victor/caramelo_goiania/src/install/grid_map_ros:/home/victor/caramelo_goiania/src/install/grid_map_cv:/home/victor/caramelo_goiania/src/install/grid_map_msgs:/home/victor/caramelo_goiania/src/install/grid_map_core:/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/victor/caramelo_goiania/src/install/grid_map_ros:/home/victor/caramelo_goiania/src/install/grid_map_cv:/home/victor/caramelo_goiania/src/install/grid_map_msgs:/home/victor/caramelo_goiania/src/install/grid_map_core:/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers:/home/victor/caramelo_goiania/install/sllidar_ros2:/home/victor/caramelo_goiania/install/rplidar_ros:/home/victor/caramelo_goiania/install/rf2o_laser_odometry:/home/victor/caramelo_goiania/src/install/sllidar_ros2:/home/victor/caramelo_goiania/src/install/rplidar_ros:/home/victor/caramelo_goiania/src/install/navegacao_pkg:/home/victor/caramelo_goiania/install/navegacao_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/victor/caramelo_goiania/src/install/grid_map_ros/lib:/home/victor/caramelo_goiania/src/install/grid_map_cv/lib:/home/victor/caramelo_goiania/src/install/grid_map_msgs/lib:/home/victor/caramelo_goiania/src/install/grid_map_core/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/victor/caramelo_goiania/src/grid_map/grid_map_pcl -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/victor/caramelo_goiania/src/install/grid_map_pcl
+[16.782s] Invoking command in '/home/victor/caramelo_goiania/src/build/grid_map_pcl': AMENT_PREFIX_PATH=/home/victor/caramelo_goiania/src/install/grid_map_ros:/home/victor/caramelo_goiania/src/install/grid_map_cv:/home/victor/caramelo_goiania/src/install/grid_map_msgs:/home/victor/caramelo_goiania/src/install/grid_map_core:/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/victor/caramelo_goiania/src/install/grid_map_ros:/home/victor/caramelo_goiania/src/install/grid_map_cv:/home/victor/caramelo_goiania/src/install/grid_map_msgs:/home/victor/caramelo_goiania/src/install/grid_map_core:/home/victor/caramelo_goiania/src/install/grid_map_cmake_helpers:/home/victor/caramelo_goiania/install/sllidar_ros2:/home/victor/caramelo_goiania/install/rplidar_ros:/home/victor/caramelo_goiania/install/rf2o_laser_odometry:/home/victor/caramelo_goiania/src/install/sllidar_ros2:/home/victor/caramelo_goiania/src/install/rplidar_ros:/home/victor/caramelo_goiania/src/install/navegacao_pkg:/home/victor/caramelo_goiania/install/navegacao_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/victor/caramelo_goiania/src/install/grid_map_ros/lib:/home/victor/caramelo_goiania/src/install/grid_map_cv/lib:/home/victor/caramelo_goiania/src/install/grid_map_msgs/lib:/home/victor/caramelo_goiania/src/install/grid_map_core/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/victor/caramelo_goiania/src/install/grid_map_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/victor/caramelo_goiania/src/build/grid_map_pcl -- -j8 -l8
+[17.112s] [  5%] [32mBuilding CXX object CMakeFiles/grid_map_pcl.dir/src/GridMapPclLoader.cpp.o[0m
+[56.349s] [ 10%] [32mBuilding CXX object CMakeFiles/grid_map_pcl.dir/src/GridMapPclConverter.cpp.o[0m

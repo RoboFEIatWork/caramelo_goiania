@@ -1,0 +1,27 @@
+[0.276s] Invoking command in '/home/victor/caramelo_goiania/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victor/caramelo_goiania/install/navegacao_pkg:/home/victor/caramelo_goiania/src/install/navegacao_pkg:/opt/ros/humble /usr/bin/cmake --build /home/victor/caramelo_goiania/build/rf2o_laser_odometry -- -j8 -l8
+[0.330s] [35m[1mConsolidate compiler generated dependencies of target rf2o_laser_odometry[0m
+[0.333s] [35m[1mConsolidate compiler generated dependencies of target rf2o_laser_odometry_node[0m
+[0.384s] [ 40%] Built target rf2o_laser_odometry
+[0.398s] [100%] Built target rf2o_laser_odometry_node
+[0.427s] Invoked command in '/home/victor/caramelo_goiania/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victor/caramelo_goiania/install/navegacao_pkg:/home/victor/caramelo_goiania/src/install/navegacao_pkg:/opt/ros/humble /usr/bin/cmake --build /home/victor/caramelo_goiania/build/rf2o_laser_odometry -- -j8 -l8
+[0.500s] Invoking command in '/home/victor/caramelo_goiania/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victor/caramelo_goiania/install/navegacao_pkg:/home/victor/caramelo_goiania/src/install/navegacao_pkg:/opt/ros/humble /usr/bin/cmake --install /home/victor/caramelo_goiania/build/rf2o_laser_odometry
+[0.509s] -- Install configuration: ""
+[0.510s] -- Up-to-date: /home/victor/caramelo_goiania/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node
+[0.510s] -- Up-to-date: /home/victor/caramelo_goiania/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch
+[0.511s] -- Up-to-date: /home/victor/caramelo_goiania/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch/rf2o_laser_odometry.launch.py
+[0.511s] -- Up-to-date: /home/victor/caramelo_goiania/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies/rf2o_laser_odometry
+[0.511s] -- Up-to-date: /home/victor/caramelo_goiania/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path/rf2o_laser_odometry
+[0.511s] -- Up-to-date: /home/victor/caramelo_goiania/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.sh
+[0.511s] -- Up-to-date: /home/victor/caramelo_goiania/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.dsv
+[0.511s] -- Up-to-date: /home/victor/caramelo_goiania/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.sh
+[0.512s] -- Up-to-date: /home/victor/caramelo_goiania/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.dsv
+[0.512s] -- Up-to-date: /home/victor/caramelo_goiania/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.bash
+[0.512s] -- Up-to-date: /home/victor/caramelo_goiania/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.sh
+[0.512s] -- Up-to-date: /home/victor/caramelo_goiania/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.zsh
+[0.512s] -- Up-to-date: /home/victor/caramelo_goiania/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.dsv
+[0.513s] -- Installing: /home/victor/caramelo_goiania/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv
+[0.513s] -- Up-to-date: /home/victor/caramelo_goiania/install/rf2o_laser_odometry/share/ament_index/resource_index/packages/rf2o_laser_odometry
+[0.513s] -- Up-to-date: /home/victor/caramelo_goiania/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig.cmake
+[0.513s] -- Up-to-date: /home/victor/caramelo_goiania/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig-version.cmake
+[0.513s] -- Up-to-date: /home/victor/caramelo_goiania/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.xml
+[0.514s] Invoked command in '/home/victor/caramelo_goiania/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victor/caramelo_goiania/install/navegacao_pkg:/home/victor/caramelo_goiania/src/install/navegacao_pkg:/opt/ros/humble /usr/bin/cmake --install /home/victor/caramelo_goiania/build/rf2o_laser_odometry

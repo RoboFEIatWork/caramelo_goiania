@@ -1,46 +1,56 @@
 from launch import LaunchDescription
+from ament_index_python.packages import get_package_share_directory
+from launch.actions import IncludeLaunchDescription
+from launch.launch_description_sources import PythonLaunchDescriptionSource
+from launch_ros.actions import Node
 from launch.actions import DeclareLaunchArgument
 from launch.substitutions import LaunchConfiguration
-from launch_ros.actions import Node
 
 def generate_launch_description():
-    # Argumentos de lançamento
-    configuration_directory = LaunchConfiguration('configuration_directory', default='config')
-    configuration_basename = LaunchConfiguration('configuration_basename', default='my_lidar_config.lua')
-    use_sim_time = LaunchConfiguration('use_sim_time', default='false')
 
-    # Nó Cartographer
-    cartographer_node = Node(
+    log_level = DeclareLaunchArgument(
+        name='log_level', 
+        default_value='INFO', 
+        choices=['DEBUG','INFO','WARN','ERROR','FATAL'],
+        description='Flag to set log level')
+    
+    cartographer = Node(
         package='cartographer_ros',
         executable='cartographer_node',
         name='cartographer_node',
-        output='screen',
-        parameters=[{'use_sim_time': use_sim_time}],
-        arguments=[
-            '-configuration_directory', configuration_directory,
-            '-configuration_basename', configuration_basename
-        ],
+        output='log',
         remappings=[
-            ('/scan', '/meu_lidar_scan')  # Remapeando o tópico do LiDAR
+            ('scan', 'scan'),
+            ('imu', 'imu'),
+        ],
+        parameters=[{
+            'use_sim_time': True
+        }],
+        arguments=[
+            '-configuration_directory', [get_package_share_directory('navegacao_pkg'), '/config/nav/'],
+            '-configuration_basename', 'cartographer.lua',
+            '--ros-args', '--log-level', LaunchConfiguration('log_level')
         ]
     )
 
-    # Descrição do Lançamento
-    return LaunchDescription([
-        DeclareLaunchArgument(
-            'configuration_directory',
-            default_value='/home/victor/caramelo_goiania/src/navegacao_pkg/navegacao_pkg/config',
-            description='Diretório de configuração do Cartographer'
-        ),
-        DeclareLaunchArgument(
-            'configuration_basename',
-            default_value='my_lidar_config.lua',
-            description='Arquivo de configuração do Cartographer'
-        ),
-        DeclareLaunchArgument(
-            'use_sim_time',
-            default_value='false',
-            description='Usar tempo de simulação (defina como false para LiDAR real)'
-        ),
-        cartographer_node
-    ])
+    occupacy_grid = Node(
+        package='cartographer_ros',
+        executable='cartographer_occupancy_grid_node',
+        name='occupancy_grid_node',
+        output='log',
+        parameters=[{
+            'use_sim_time': True
+        }],
+        arguments=[
+            '-resolution', '0.05', 
+            '-publish_period_sec', '1.0',
+            '--ros-args', '--log-level', LaunchConfiguration('log_level')
+        ]
+    )
+
+    ld = LaunchDescription()
+    ld.add_action(log_level)
+    ld.add_action(cartographer)
+    ld.add_action(occupacy_grid)
+
+    return ld

@@ -1,0 +1,242 @@
+[0.156s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.157s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x77501fb60fd0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77501fb60730>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77501fb60730>>)
+[0.370s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.370s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.370s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.370s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.370s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.370s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.370s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/victor/caramelo_goiania/src'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(navegacao_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(navegacao_pkg) by extension 'ignore'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(navegacao_pkg) by extension 'ignore_ament_install'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(navegacao_pkg) by extensions ['colcon_pkg']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(navegacao_pkg) by extension 'colcon_pkg'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(navegacao_pkg) by extensions ['colcon_meta']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(navegacao_pkg) by extension 'colcon_meta'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(navegacao_pkg) by extensions ['ros']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(navegacao_pkg) by extension 'ros'
+[0.390s] DEBUG:colcon.colcon_core.package_identification:Package 'navegacao_pkg' with type 'ros.ament_python' and name 'navegacao_pkg'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry) by extension 'ignore_ament_install'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry) by extensions ['colcon_pkg']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry) by extension 'colcon_pkg'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry) by extensions ['colcon_meta']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry) by extension 'colcon_meta'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry) by extensions ['ros']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(rf2o_laser_odometry) by extension 'ros'
+[0.392s] DEBUG:colcon.colcon_core.package_identification:Package 'rf2o_laser_odometry' with type 'ros.ament_cmake' and name 'rf2o_laser_odometry'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extension 'ignore'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extension 'ignore_ament_install'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extensions ['colcon_pkg']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extension 'colcon_pkg'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extensions ['colcon_meta']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extension 'colcon_meta'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extensions ['ros']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extension 'ros'
+[0.393s] DEBUG:colcon.colcon_core.package_identification:Package 'sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[0.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.431s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.434s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 13 installed packages in /home/victor/caramelo_goiania/src/install
+[0.434s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/victor/install
+[0.436s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 413 installed packages in /opt/ros/humble
+[0.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'navegacao_pkg' build argument 'cmake_args' from command line to 'None'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'navegacao_pkg' build argument 'cmake_target' from command line to 'None'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'navegacao_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'navegacao_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'navegacao_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'navegacao_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'navegacao_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'navegacao_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.491s] Level 5:colcon.colcon_core.verb:set package 'navegacao_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.491s] DEBUG:colcon.colcon_core.verb:Building package 'navegacao_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/victor/caramelo_goiania/src/build/navegacao_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/victor/caramelo_goiania/src/install/navegacao_pkg', 'merge_install': False, 'path': '/home/victor/caramelo_goiania/src/navegacao_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_args' from command line to 'None'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_target' from command line to 'None'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_clean_cache' from command line to 'False'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_clean_first' from command line to 'False'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'cmake_force_configure' from command line to 'False'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'ament_cmake_args' from command line to 'None'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'catkin_cmake_args' from command line to 'None'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'rf2o_laser_odometry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.492s] DEBUG:colcon.colcon_core.verb:Building package 'rf2o_laser_odometry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/victor/caramelo_goiania/src/build/rf2o_laser_odometry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/victor/caramelo_goiania/src/install/rf2o_laser_odometry', 'merge_install': False, 'path': '/home/victor/caramelo_goiania/src/rf2o_laser_odometry', 'symlink_install': False, 'test_result_base': None}
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.492s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.492s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/victor/caramelo_goiania/src/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/victor/caramelo_goiania/src/install/sllidar_ros2', 'merge_install': False, 'path': '/home/victor/caramelo_goiania/src/sllidar_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.493s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.493s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.494s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/victor/caramelo_goiania/src/navegacao_pkg' with build type 'ament_python'
+[0.494s] Level 1:colcon.colcon_core.shell:create_environment_hook('navegacao_pkg', 'ament_prefix_path')
+[0.498s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victor/caramelo_goiania/src/install/navegacao_pkg/share/navegacao_pkg/hook/ament_prefix_path.ps1'
+[0.499s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/victor/caramelo_goiania/src/install/navegacao_pkg/share/navegacao_pkg/hook/ament_prefix_path.dsv'
+[0.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victor/caramelo_goiania/src/install/navegacao_pkg/share/navegacao_pkg/hook/ament_prefix_path.sh'
+[0.500s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.500s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.506s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/victor/caramelo_goiania/src/rf2o_laser_odometry' with build type 'ament_cmake'
+[0.506s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/victor/caramelo_goiania/src/rf2o_laser_odometry'
+[0.506s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.506s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.511s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/victor/caramelo_goiania/src/sllidar_ros2' with build type 'ament_cmake'
+[0.511s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/victor/caramelo_goiania/src/sllidar_ros2'
+[0.511s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.511s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.810s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/victor/caramelo_goiania/src/navegacao_pkg'
+[0.810s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.810s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.822s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/victor/caramelo_goiania/src/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victor/caramelo_goiania/src/install/navegacao_pkg:/opt/ros/humble /usr/bin/cmake --build /home/victor/caramelo_goiania/src/build/rf2o_laser_odometry -- -j8 -l8
+[0.830s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/victor/caramelo_goiania/src/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victor/caramelo_goiania/src/install/navegacao_pkg:/opt/ros/humble /usr/bin/cmake --build /home/victor/caramelo_goiania/src/build/sllidar_ros2 -- -j8 -l8
+[0.924s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/victor/caramelo_goiania/src/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victor/caramelo_goiania/src/install/navegacao_pkg:/opt/ros/humble /usr/bin/cmake --build /home/victor/caramelo_goiania/src/build/rf2o_laser_odometry -- -j8 -l8
+[0.934s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/victor/caramelo_goiania/src/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victor/caramelo_goiania/src/install/navegacao_pkg:/opt/ros/humble /usr/bin/cmake --build /home/victor/caramelo_goiania/src/build/sllidar_ros2 -- -j8 -l8
+[0.976s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/victor/caramelo_goiania/src/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victor/caramelo_goiania/src/install/navegacao_pkg:/opt/ros/humble /usr/bin/cmake --install /home/victor/caramelo_goiania/src/build/rf2o_laser_odometry
+[1.004s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rf2o_laser_odometry)
+[1.005s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/victor/caramelo_goiania/src/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victor/caramelo_goiania/src/install/navegacao_pkg:/opt/ros/humble /usr/bin/cmake --install /home/victor/caramelo_goiania/src/build/rf2o_laser_odometry
+[1.008s] Level 1:colcon.colcon_core.environment:checking '/home/victor/caramelo_goiania/src/install/rf2o_laser_odometry' for CMake module files
+[1.008s] Level 1:colcon.colcon_core.environment:checking '/home/victor/caramelo_goiania/src/install/rf2o_laser_odometry' for CMake config files
+[1.009s] Level 1:colcon.colcon_core.shell:create_environment_hook('rf2o_laser_odometry', 'cmake_prefix_path')
+[1.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victor/caramelo_goiania/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.ps1'
+[1.009s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/victor/caramelo_goiania/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.dsv'
+[1.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victor/caramelo_goiania/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.sh'
+[1.010s] Level 1:colcon.colcon_core.environment:checking '/home/victor/caramelo_goiania/src/install/rf2o_laser_odometry/lib'
+[1.010s] Level 1:colcon.colcon_core.environment:checking '/home/victor/caramelo_goiania/src/install/rf2o_laser_odometry/bin'
+[1.010s] Level 1:colcon.colcon_core.environment:checking '/home/victor/caramelo_goiania/src/install/rf2o_laser_odometry/lib/pkgconfig/rf2o_laser_odometry.pc'
+[1.011s] Level 1:colcon.colcon_core.environment:checking '/home/victor/caramelo_goiania/src/install/rf2o_laser_odometry/lib/python3.10/site-packages'
+[1.011s] Level 1:colcon.colcon_core.environment:checking '/home/victor/caramelo_goiania/src/install/rf2o_laser_odometry/bin'
+[1.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/victor/caramelo_goiania/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.ps1'
+[1.013s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/victor/caramelo_goiania/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv'
+[1.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/victor/caramelo_goiania/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.sh'
+[1.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/victor/caramelo_goiania/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.bash'
+[1.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/victor/caramelo_goiania/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.zsh'
+[1.018s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/victor/caramelo_goiania/src/install/rf2o_laser_odometry/share/colcon-core/packages/rf2o_laser_odometry)
+[1.033s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/victor/caramelo_goiania/src/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victor/caramelo_goiania/src/install/navegacao_pkg:/opt/ros/humble /usr/bin/cmake --install /home/victor/caramelo_goiania/src/build/sllidar_ros2
+[1.059s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rf2o_laser_odometry)
+[1.059s] Level 1:colcon.colcon_core.environment:checking '/home/victor/caramelo_goiania/src/install/rf2o_laser_odometry' for CMake module files
+[1.060s] Level 1:colcon.colcon_core.environment:checking '/home/victor/caramelo_goiania/src/install/rf2o_laser_odometry' for CMake config files
+[1.060s] Level 1:colcon.colcon_core.shell:create_environment_hook('rf2o_laser_odometry', 'cmake_prefix_path')
+[1.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victor/caramelo_goiania/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.ps1'
+[1.061s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/victor/caramelo_goiania/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.dsv'
+[1.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victor/caramelo_goiania/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/hook/cmake_prefix_path.sh'
+[1.063s] Level 1:colcon.colcon_core.environment:checking '/home/victor/caramelo_goiania/src/install/rf2o_laser_odometry/lib'
+[1.063s] Level 1:colcon.colcon_core.environment:checking '/home/victor/caramelo_goiania/src/install/rf2o_laser_odometry/bin'
+[1.063s] Level 1:colcon.colcon_core.environment:checking '/home/victor/caramelo_goiania/src/install/rf2o_laser_odometry/lib/pkgconfig/rf2o_laser_odometry.pc'
+[1.064s] Level 1:colcon.colcon_core.environment:checking '/home/victor/caramelo_goiania/src/install/rf2o_laser_odometry/lib/python3.10/site-packages'
+[1.064s] Level 1:colcon.colcon_core.environment:checking '/home/victor/caramelo_goiania/src/install/rf2o_laser_odometry/bin'
+[1.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/victor/caramelo_goiania/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.ps1'
+[1.065s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/victor/caramelo_goiania/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv'
+[1.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/victor/caramelo_goiania/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.sh'
+[1.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/victor/caramelo_goiania/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.bash'
+[1.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/victor/caramelo_goiania/src/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.zsh'
+[1.067s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/victor/caramelo_goiania/src/install/rf2o_laser_odometry/share/colcon-core/packages/rf2o_laser_odometry)
+[1.068s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[1.068s] Level 1:colcon.colcon_core.environment:checking '/home/victor/caramelo_goiania/src/install/sllidar_ros2' for CMake module files
+[1.069s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/victor/caramelo_goiania/src/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/victor/caramelo_goiania/src/install/navegacao_pkg:/opt/ros/humble /usr/bin/cmake --install /home/victor/caramelo_goiania/src/build/sllidar_ros2
+[1.070s] Level 1:colcon.colcon_core.environment:checking '/home/victor/caramelo_goiania/src/install/sllidar_ros2' for CMake config files
+[1.070s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[1.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victor/caramelo_goiania/src/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[1.071s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/victor/caramelo_goiania/src/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[1.072s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victor/caramelo_goiania/src/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[1.072s] Level 1:colcon.colcon_core.environment:checking '/home/victor/caramelo_goiania/src/install/sllidar_ros2/lib'
+[1.073s] Level 1:colcon.colcon_core.environment:checking '/home/victor/caramelo_goiania/src/install/sllidar_ros2/bin'
+[1.073s] Level 1:colcon.colcon_core.environment:checking '/home/victor/caramelo_goiania/src/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[1.073s] Level 1:colcon.colcon_core.environment:checking '/home/victor/caramelo_goiania/src/install/sllidar_ros2/lib/python3.10/site-packages'
+[1.073s] Level 1:colcon.colcon_core.environment:checking '/home/victor/caramelo_goiania/src/install/sllidar_ros2/bin'
+[1.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/victor/caramelo_goiania/src/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[1.074s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/victor/caramelo_goiania/src/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[1.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/victor/caramelo_goiania/src/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[1.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/victor/caramelo_goiania/src/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[1.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/victor/caramelo_goiania/src/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[1.076s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/victor/caramelo_goiania/src/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[1.171s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[1.171s] Level 1:colcon.colcon_core.environment:checking '/home/victor/caramelo_goiania/src/install/sllidar_ros2' for CMake module files
+[1.172s] Level 1:colcon.colcon_core.environment:checking '/home/victor/caramelo_goiania/src/install/sllidar_ros2' for CMake config files
+[1.173s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[1.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victor/caramelo_goiania/src/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[1.174s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/victor/caramelo_goiania/src/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[1.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victor/caramelo_goiania/src/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[1.174s] Level 1:colcon.colcon_core.environment:checking '/home/victor/caramelo_goiania/src/install/sllidar_ros2/lib'
+[1.175s] Level 1:colcon.colcon_core.environment:checking '/home/victor/caramelo_goiania/src/install/sllidar_ros2/bin'
+[1.175s] Level 1:colcon.colcon_core.environment:checking '/home/victor/caramelo_goiania/src/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[1.175s] Level 1:colcon.colcon_core.environment:checking '/home/victor/caramelo_goiania/src/install/sllidar_ros2/lib/python3.10/site-packages'
+[1.175s] Level 1:colcon.colcon_core.environment:checking '/home/victor/caramelo_goiania/src/install/sllidar_ros2/bin'
+[1.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/victor/caramelo_goiania/src/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[1.176s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/victor/caramelo_goiania/src/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[1.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/victor/caramelo_goiania/src/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[1.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/victor/caramelo_goiania/src/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[1.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/victor/caramelo_goiania/src/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[1.177s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/victor/caramelo_goiania/src/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[1.382s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/victor/caramelo_goiania/src/navegacao_pkg': PYTHONPATH=/home/victor/caramelo_goiania/src/build/navegacao_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/navegacao_pkg build --build-base /home/victor/caramelo_goiania/src/build/navegacao_pkg/build install --record /home/victor/caramelo_goiania/src/build/navegacao_pkg/install.log --single-version-externally-managed install_data
+[1.705s] Level 1:colcon.colcon_core.environment:checking '/home/victor/caramelo_goiania/src/install/navegacao_pkg' for CMake module files
+[1.705s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/victor/caramelo_goiania/src/navegacao_pkg' returned '0': PYTHONPATH=/home/victor/caramelo_goiania/src/build/navegacao_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/navegacao_pkg build --build-base /home/victor/caramelo_goiania/src/build/navegacao_pkg/build install --record /home/victor/caramelo_goiania/src/build/navegacao_pkg/install.log --single-version-externally-managed install_data
+[1.706s] Level 1:colcon.colcon_core.environment:checking '/home/victor/caramelo_goiania/src/install/navegacao_pkg' for CMake config files
+[1.707s] Level 1:colcon.colcon_core.environment:checking '/home/victor/caramelo_goiania/src/install/navegacao_pkg/lib'
+[1.707s] Level 1:colcon.colcon_core.environment:checking '/home/victor/caramelo_goiania/src/install/navegacao_pkg/bin'
+[1.707s] Level 1:colcon.colcon_core.environment:checking '/home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/pkgconfig/navegacao_pkg.pc'
+[1.707s] Level 1:colcon.colcon_core.environment:checking '/home/victor/caramelo_goiania/src/install/navegacao_pkg/lib/python3.10/site-packages'
+[1.707s] Level 1:colcon.colcon_core.shell:create_environment_hook('navegacao_pkg', 'pythonpath')
+[1.707s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victor/caramelo_goiania/src/install/navegacao_pkg/share/navegacao_pkg/hook/pythonpath.ps1'
+[1.708s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/victor/caramelo_goiania/src/install/navegacao_pkg/share/navegacao_pkg/hook/pythonpath.dsv'
+[1.708s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/victor/caramelo_goiania/src/install/navegacao_pkg/share/navegacao_pkg/hook/pythonpath.sh'
+[1.709s] Level 1:colcon.colcon_core.environment:checking '/home/victor/caramelo_goiania/src/install/navegacao_pkg/bin'
+[1.709s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navegacao_pkg)
+[1.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/victor/caramelo_goiania/src/install/navegacao_pkg/share/navegacao_pkg/package.ps1'
+[1.709s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/victor/caramelo_goiania/src/install/navegacao_pkg/share/navegacao_pkg/package.dsv'
+[1.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/victor/caramelo_goiania/src/install/navegacao_pkg/share/navegacao_pkg/package.sh'
+[1.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/victor/caramelo_goiania/src/install/navegacao_pkg/share/navegacao_pkg/package.bash'
+[1.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/victor/caramelo_goiania/src/install/navegacao_pkg/share/navegacao_pkg/package.zsh'
+[1.711s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/victor/caramelo_goiania/src/install/navegacao_pkg/share/colcon-core/packages/navegacao_pkg)
+[1.711s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.712s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.712s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.712s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.718s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.719s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.719s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.732s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.733s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/victor/caramelo_goiania/src/install/local_setup.ps1'
+[1.734s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/victor/caramelo_goiania/src/install/_local_setup_util_ps1.py'
+[1.735s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/victor/caramelo_goiania/src/install/setup.ps1'
+[1.737s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/victor/caramelo_goiania/src/install/local_setup.sh'
+[1.738s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/victor/caramelo_goiania/src/install/_local_setup_util_sh.py'
+[1.739s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/victor/caramelo_goiania/src/install/setup.sh'
+[1.741s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/victor/caramelo_goiania/src/install/local_setup.bash'
+[1.741s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/victor/caramelo_goiania/src/install/setup.bash'
+[1.743s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/victor/caramelo_goiania/src/install/local_setup.zsh'
+[1.743s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/victor/caramelo_goiania/src/install/setup.zsh'
